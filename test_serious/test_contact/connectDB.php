@@ -19,7 +19,7 @@
 <?php  include 'config.php';
 
 // Create connection
-$conn = new mysqli($host, $user, $password,$database);
+$conn = new mysqli($host, $user, $password);
 
 // Check connection
 if ($conn->connect_error) {

@@ -107,13 +107,13 @@
     </div>
   </div>
 </div>
+<hr />
 
-    <hr />
     <!-- buttons (4 button/row)---------------->
     <header class="w3-container w3-left w3-white">
       <h2>Services</h2>
     </header>
-    <hr />
+
     <div >
       <center>
         <table width=100% class="w3-container w3-center ">
