@@ -3,9 +3,12 @@
 <title>PHP & MySQL Tutorial</title>
 </head>
 <body>
-<?php// include 'config.php';
-	/*objConnect = mysqli_connect($host,$user,$password);
-	if($objConnect)
+  <?php include 'config.php';
+  $objCon = mysqli_connect($host,$user,$password,$database);
+
+  mysqli_set_charset($objCon, "utf8");
+
+  if($objCon)
 	{
 		echo "Database Connected.";
 	}
@@ -14,19 +17,9 @@
 		echo "Database Connect Failed.";
 	}
 
-	mysqli_close($objConnect);*/
+	mysqli_close($objCon);
 ?>
-<?php  include 'config.php';
 
-// Create connection
-$conn = new mysqli($host, $user, $password);
-
-// Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-}
-echo "Connected successfully";
-?>
 
 </body>
 </html>

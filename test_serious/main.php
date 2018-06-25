@@ -332,12 +332,15 @@
   <h2 class="w3-left">Contacts</h2>
 </div>
 
-<!-- test php search table from database-->
+<!-- test php search table from database (with iframe)-->
 <hr />
+<div class="w3-container ">
 
-<div class="w3-container">
-  <?php include 'searchRecord.php'; ?>
+<iframe height= "300px"src="./searchRecord.php" class="w3-half" scrolling="yes">
+
+</iframe>
 </div>
+
 <!--test php search table from database end-->
 <!--tab- open/close -->
 <hr />

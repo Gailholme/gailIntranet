@@ -1,16 +1,26 @@
 <html>
 <head>
 <title>PHP & MySQL Tutorial</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="css/w3.css">
+<link rel="stylesheet" href="css/theme.css">
+<link rel="stylesheet" href="css/customize.css">
 </head>
 <body>
 <?php include 'config.php';
 $objConnect = mysqli_connect($host,$user,$password,$database) or die("Error Connect to Database");
+	mysqli_set_charset($objConnect, "utf8");
 //$objDB = mysqli_select_db("registration");
+
+/*** list ***/
 $strSQL = "SELECT * FROM employees";
 $objQuery = mysqli_query($objConnect, $strSQL) or die ("Error Query [".$strSQL."]");
+
 ?>
 <div class="w3-responsive w3-card-4">
-<table width="60" border="1" class= "w3-table w3striped w3-bordered">
+
+<table  border="1" class= "w3-table w3striped w3-bordered">
   <thead>
   <tr class="w3-theme">
     <th width="91"> <div align="center">Name</div></th>
@@ -34,7 +44,7 @@ while($objResult = mysqli_fetch_array($objQuery))
 <?php
 }
 ?>
-</table>
+</table> 
 <?php
 mysqli_close($objConnect);
 ?>

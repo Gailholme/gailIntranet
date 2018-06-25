@@ -2,5 +2,5 @@
 	$host = 'localhost';
 	$user = 'gail';
 	$password = 'password';
-	$database = 'internalcontact'';
+	$database = 'internalcontact';
 ?>

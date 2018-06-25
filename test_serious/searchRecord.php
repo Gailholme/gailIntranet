@@ -73,7 +73,7 @@
   </div>
     <button class="w3-btn w3-blue">Register</button></p>
     <div>
-      <?php include 'action.php'; ?>
+    <?php // include 'action.php'; ?> 
     </div>
     </form>
 

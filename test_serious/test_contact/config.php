@@ -2,5 +2,5 @@
 	$host = 'localhost';
 	$user = 'gail';
 	$password = 'password';
-	$database = 'employees';
+	$database = 'thai_test';
 ?>
