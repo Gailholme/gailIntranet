@@ -1,3 +1,14 @@
+<html>
+<head>
+	<style>
+     .tabscroll{
+       height:300px;display:block;overflow:scroll
+     }
+   </style>
+</head>
+<body>
+
+
 <?php include 'config.php';
 if(isset($_GET["txtKeyword"]))
 	{
@@ -14,9 +25,10 @@ if(isset($_GET["txtKeyword"]))
 	LEFT JOIN course ON takes.cid = course.cid WHERE (name LIKE '%".$strInput."%') ORDER BY name ASC*/
 	$objQuery = mysqli_query($objConnect, $strSQL) or die ("Error Query [".$strSQL."]");
 	?>
+
 	<table width="600" border="1">
 	  <tr>
-    <th width="98"> <div align="center">Name </div></th>
+    <th width="98 "> <div align="center">Name </div></th>
     <th width="98"> <div align="center">Nickname</div></th>
 	    <th width="98"> <div align="center">phone_number </div></th>
     <th width="98"> <div align="center">dname</div></th>
@@ -36,6 +48,7 @@ if(isset($_GET["txtKeyword"]))
 	}
 	?>
 	</table>
+
 	<?php
 	mysqli_close($objConnect);
 }
@@ -43,3 +56,5 @@ else{
   include "listRecord.php";
 }
 ?>
+</body>
+</html>

@@ -1,4 +1,24 @@
 
+<?php
+	session_start();
+	if($_SESSION['UserID'] == "")
+	{
+		echo "Please Login!";
+		exit();
+	}
+
+	if($_SESSION['Status'] != "ADMIN")
+	{
+		echo "This page for Admin only!";
+		exit();
+	}
+
+  $con = mysqli_connect("localhost","gail","password");
+	mysqli_select_db($con, 'user') or die(mysqli_error($con));
+	$strSQL = "SELECT * FROM member WHERE UserID LIKE '".$_SESSION['UserID']."' ";
+	$objQuery = mysqli_query($con,$strSQL);
+	$objResult = mysqli_fetch_array($objQuery);
+?>
 <html>
 <head>
 <title>ThaiCreate.Com Tutorials</title>
@@ -21,6 +41,6 @@
   <br>
   <a href="edit_profile.php">Edit</a><br>
   <br>
-  <a href="logout.php">Logout</a>
+  <a href="main.php">Logout</a>
 </body>
 </html>

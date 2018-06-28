@@ -1,32 +1,33 @@
-<?php include 'config.php';
-	$objConnect = mysqli_connect($host,$user,$password,"user") or die("Error Connect to Database");
-//	$strSQL = "SELECT * FROM member WHERE Username = '".mysql_real_escape_string($_POST['txtUsername'])."'
-  //	and Password = '".mysql_real_escape_string($_POST['txtPassword'])."'";
+<?php
+	session_start();
+	$con = mysqli_connect("localhost","gail","password");
+	mysqli_select_db($con, 'user') or die(mysqli_error($con));
+	$strSQL = "SELECT * FROM member WHERE Username = '".mysqli_real_escape_string($con,$_POST['txtUsername'])."'
+	and Password = '".mysqli_real_escape_string($con,$_POST['txtPassword'])."'";
+	$objQuery = mysqli_query($con,$strSQL);
+	$objResult = mysqli_fetch_array($objQuery);
+	$SESSiON['$objResult'];
 
-  $struser = isset($_GET["txtUsername"]) ? $_GET["txtUsername"] : '';
-  $strpass = isset($_GET["txtPassword"]) ? $_GET["txtPassword"] : '';
-  $strSQL = "SELECT * FROM member WHERE(Username LIKE '.$struser.' AND Password LIKE '.$strpass.')";
-	$objQuery = mysqli_query($objConnect, $strSQL) or die ("Error Query [".$strSQL."]");
-   $objResult = mysqli_fetch_array($objQuery);
-	if(!$objResult)
+	if(is_null($objResult))
 	{
-			echo "Username and Password Incorrect!";
+			echo "Username and Password Incorrect!"; // should change to be alert
 	}
 	else
 	{
-		//	$_SESSION["UserID"] = $objResult["UserID"];
-		//	$_SESSION["Status"] = $objResult["Status"];
+			$_SESSION["UserID"] = $objResult["UserID"];
+			$_SESSION["Status"] = $objResult["Status"];
 
-			//session_write_close();
+			session_write_close();
 
 			if($objResult["Status"] == "ADMIN")
 			{
-				 include ("admin_page.php");
+
+				header("location:admin_page.php");
 			}
 			else
 			{
-				include ("user_page.php");
+				header("location:user_page.php");
 			}
 	}
-
+	mysqli_close($con);
 ?>

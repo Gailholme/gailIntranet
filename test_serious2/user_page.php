@@ -1,9 +1,29 @@
+<?php
+	session_start();
+	if($_SESSION['UserID'] == "")
+	{
+		echo "Please Login!";
+		exit();
+	}
 
+	if($_SESSION['Status'] != "USER")
+	{
+		echo "This page for User only!";
+		exit();
+	}
+
+  $con = mysqli_connect("localhost","gail","password");
+  mysqli_select_db($con, 'user') or die(mysqli_error($con));
+	$strSQL = "SELECT * FROM member WHERE UserID LIKE '".$_SESSION['UserID']."' ";
+	$objQuery = mysqli_query($con,$strSQL);
+	$objResult = mysqli_fetch_array($objQuery);
+?>
 <html>
 <head>
 <title>ThaiCreate.Com Tutorials</title>
 </head>
 <body>
+
   Welcome to User Page! <br>
   <table border="1" style="width: 300px">
     <tbody>

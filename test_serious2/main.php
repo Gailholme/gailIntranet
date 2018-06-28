@@ -109,70 +109,11 @@
 </div>
 <hr />
 
-    <!-- buttons (4 button/row)---------------->
-    <header class="w3-container w3-left w3-white">
-      <h2>Services</h2>
-    </header>
+<!-- buttons (3 button/row)---------------->
+<header class="w3-container w3-left w3-white">
+  <h2>Services</h2>
+</header>
 
-    <div >
-      <center>
-        <table width=100% class="w3-container w3-center ">
-          <tr >
-            <td class ="square2 button w3-round-xlarge text_center btn btn-default btn-lg" onclick="alert('Hello World!')" >
-              <input type="image" src="./assets/minion.png" class ="button"/>
-            </td>
-            <td class ="square2 w3-round-xlarge">
-            </td>
-            <td class ="square2 w3-round-xlarge">
-            </td>
-          </td>
-        </tr>
-      </table>
-    </center>
-
-    </div>
-    <hr />
-    <div >
-        <center>
-        <table width=100% class="w3-container w3-center ">
-          <tr >
-            <td  onclick="alert('Hello World!')" class ="square w3-round-xlarge text_center" >
-
-            </td>
-            <td class ="square w3-round-xlarge">
-              <input type="image" src="./assets/minion.png" class ="button"onclick="alert('Hello World!')" />
-            </td>
-            <td class ="square w3-round-xlarge">
-            </td>
-          </td>
-          <td class ="square w3-round-xlarge">
-          </td>
-        </tr>
-      </table>
-    </center>
-  </div>
-  <!-- buttons (4 button/row) end-------->
-  <hr />
-  <!-- buttons ( 3 button/row)---------------->
-  <div >
-    <center>
-      <table width=100% class="w3-container w3-center ">
-        <tr >
-          <td class ="square2 button w3-round-xlarge text_center btn btn-default btn-lg" onclick="alert('Hello World!')" >
-            <input type="image" src="./assets/minion.png" class ="button"/>
-          </td>
-          <td class ="square2 w3-round-xlarge">
-          </td>
-          <td class ="square2 w3-round-xlarge">
-          </td>
-        </td>
-      </tr>
-    </table>
-  </center>
-
-</div>
-<hr />
-<!-- buttons (3 buttons/row)---------------->
 <div >
   <center>
     <table width=100% class="w3-container w3-center ">
@@ -190,6 +131,66 @@
 </center>
 
 </div>
+<hr />
+<div >
+  <center>
+    <table width=100% class="w3-container w3-center ">
+      <tr >
+        <td  onclick="alert('Hello World!')" class ="square w3-round-xlarge text_center" >
+
+        </td>
+        <td class ="square w3-round-xlarge">
+          <input type="image" src="./assets/minion.png" class ="button"onclick="alert('Hello World!')" />
+        </td>
+        <td class ="square w3-round-xlarge">
+        </td>
+    
+      <td class ="square w3-round-xlarge">
+      </td>
+    </tr>
+  </table>
+</center>
+</div>
+<!-- buttons (4 button/row) end-------->
+<hr />
+<!-- buttons ( 3 button/row)---------------->
+<!--<div >
+  <center>
+    <table width=100% class="w3-container w3-center ">
+      <tr >
+        <td class ="square2 button w3-round-xlarge text_center btn btn-default btn-lg" onclick="alert('Hello World!')" >
+          <input type="image" src="./assets/minion.png" class ="button"/>
+        </td>
+        <td class ="square2 w3-round-xlarge">
+        </td>
+        <td class ="square2 w3-round-xlarge">
+        </td>
+      </td>
+    </tr>
+  </table>
+</center>
+
+</div> -->
+<hr />
+<!-- buttons (3 buttons/row)---------------->
+<!--
+<div >
+  <center>
+    <table width=100% class="w3-container w3-center ">
+      <tr >
+        <td class ="square2 button w3-round-xlarge text_center btn btn-default btn-lg" onclick="alert('Hello World!')" >
+          <input type="image" src="./assets/minion.png" class ="button"/>
+        </td>
+        <td class ="square2 w3-round-xlarge">
+        </td>
+        <td class ="square2 w3-round-xlarge">
+        </td>
+      </td>
+    </tr>
+  </table>
+</center>
+
+</div> -->
 <!-- buttons (3 buttons/row)---------------->
 
 <hr />
@@ -257,6 +258,7 @@
 <!-- container service selection end-->
 
 <hr>
+<!-- picture
 <div>
   <center>
     <table width = "100%"  class = "w3-container">
@@ -274,7 +276,7 @@
       <hr />
     </table>
   </center>
-</div>
+</div>-->
 <hr />
 
 <!--
@@ -336,116 +338,116 @@
 <div class="w3-row-padding">
 
 
-<!-- search box----------------------->
-<div class="w3-half">
-  <form class="w3-container w3-card-4">
-    <h2>Input Form</h2>
-    <!--
-    <div class="w3-section">
+  <!-- search box----------------------->
+  <div class="w3-half">
+    <form class="w3-container w3-card-4">
+      <h2>Input Form</h2>
+      <!--
+      <div class="w3-section">
       <input class="w3-input" type="text" required>
       <label>Name</label>
     </div>-->
-  <!-- search for keyword-->
-      <div class="w3-section"> <h3>Keyword</h3>
+    <!-- search for keyword-->
+    <div class="w3-section"> <h3>Keyword</h3>
       <input name="txtKeyword" type="text"=id="txtKeyword" class="w3-input"
       value="<?php  echo (isset($_GET["txtKeyword"])) ?  $_GET["txtKeyword"] : "";?>">  <!--value="?php echo $_POST["txtKeyword"];?> -->
       <br />
-      <input type="submit" value="Search" action="action.php" class="w3-btn w3-blue"></th>
     </div>
 
 
-<!-- inputbox-->
+    <!-- inputbox-->
     <!--<div class="w3-third">
     <input class="w3-input w3-border" type="text" placeholder="One">
   </div>
 -->
-    <!--<div class="w3-section">
-      <input class="w3-input" type="text" required>
-      <label>Email</label>
-    </div> -->
-    <!-- categories-->
+<!--<div class="w3-section">
+<input class="w3-input" type="text" required>
+<label>Email</label>
+</div> -->
+<!-- categories-->
 
 
-    <div class="w3-section">
-         <h3>Department</h3>
-      <select class="w3-select w3-half" name="option">
-      <optgroup label="Picnic">
-        <option>Mustard</option>
-        <option>Ketchup</option>
-        <option>Relish</option>
-      </optgroup>
-      <optgroup label="Camping">
-        <option>Tent</option>
-        <option>Flashlight</option>
-        <option>Toilet Paper</option>
-      </optgroup>
-    </select>
+<div class="w3-section">
+  <h3>Department</h3>
+  <select class="w3-select w3-half" name="option">
 
-    <select class="w3-select w3-half" name="option">
-    <optgroup label="Picnic">
-      <option>Mustard</option>
-      <option>Ketchup</option>
-      <option>Relish</option>
-    </optgroup>
-    <optgroup label="Camping">
-      <option>Tent</option>
-      <option>Flashlight</option>
-      <option>Toilet Paper</option>
-    </optgroup>
+    <option>All</option>
+    <option>
+      <?php include "option.php"; ?>
+    </option>
   </select>
+
+  <select class="w3-select w3-half" name="option">
+
+    <option>All</option>
+    <option>
+      <?php include "option.php"; ?>
+    </option>
+  </select>
+  <br />
 </div>
-  <button class="w3-btn w3-blue">Register</button></p>
-  <div>
-  <?php // include 'action.php'; ?>
+</br>
+<div class="w3-section">
+  <input  type="submit" value="Search" action="action.php" class="w3-btn w3-blue">
+</div>
+</form>
+
+
+</div>
+<div class="w3-half">
+  <div class="w3-card-4 w3-container">
+    <h2>Lists</h2>
+
+    <!-- News content ---------------------->
+
+    <!--Left Block Starts -->
+    <div id="left_block">
+
+      <span>
+        <iframe width="100%" scrolling="yes" height="300" frameborder="0" align="middle" src="http://www.asiawealth.co.th/th/news_activities_feed.php"></iframe>
+      </span>
+    </div>
   </div>
-  </form>
+  <!--Left Block Ends -->
+  <!--  News content end---------------------->
 
 
 </div>
 </div>
+
+
+
 <!-- test php search table from database (with iframe)-->
 <br />
- <!-- php table from database : employees-->
+<!-- php table from database : employees-->
 <div class="w3-container ">
 
-<iframe height= "300px"src="./searchRecord.php" class="w3-half" scrolling="yes">
+  <iframe height= "300px"src="./searchRecord.php" class="w3-half" scrolling="yes">
 
-</iframe>
-<!-- php table from database : employees end-->
+  </iframe>
+  <!-- php table from database : employees end-->
 </div>
 
 <!--test php search table from database end-->
+
 <!--tab- open/close -->
 <hr />
-<button onclick="myAccFunc('Demo1')" class="w3-padding-16 w3-theme w3-button w3-block w3-left-align">Open Section 1</button>
-<div id="Demo1" class="w3-hide">
+<!--
+<div class="w3-container">
 
-  <!-- test php table from database------------->
-  <div>
-    <?php include 'listRecord.php'; ?>
-  </div>
-  <!-- test php table from database   end  -------------------------------->
-</div>
-<button onclick="myAccFunc('Demo2')" class="w3-padding-16 w3-theme w3-button w3-block w3-left-align">Open Section 1</button>
-<div id="Demo2" class="w3-hide">
+  <button onclick="myAccFunc('Demo1')" class="w3-padding-16 w3-theme w3-button w3-block w3-left-align">Open Section 1</button>
+  <div id="Demo1" class="w3-hide"> -->
 
-  <!-- test php table from database------------->
-  <div>
-    <?php include 'listRecord.php'; ?>
-  </div>
-  <!-- test php table from database   end  -------------------------------->
-</div>
+    <!-- test php table from database------------->
+    <!--
+    <div>
+      <?php// include 'listRecord.php'; ?>
+    </div>
+    <!-- test php table from database   end  -------------------------------->
+<!--  </div>
+</div> -->
+<!-- test php table from database   end  -------------------------------->
 
-<button onclick="myAccFunc('Demo3')" class="w3-padding-16 w3-theme w3-button w3-block w3-left-align">Open Section 1</button>
-<div id="Demo3" class="w3-hide">
-
-  <!-- test php table from database------------->
-  <div>
-    <?php include 'listRecord.php'; ?>
-  </div>
-  <!-- test php table from database   end  -------------------------------->
-</div>
-<!-- contact end--->
 
 <!-- test iframe-->
 <!--<div class="w3-container">
@@ -454,126 +456,7 @@
 </div>-->
 <!-- test iframe end-->
 
-<!-- News content ---------------------->
-<div id="content_block">
-  <!--Left Block Starts -->
-  <div id="left_block">
-
-    <span>
-      <iframe width="30%" scrolling="yes" height="450" frameborder="0" align="middle" src="http://www.asiawealth.co.th/th/news_activities_feed.php"></iframe>
-    </span>
-    </div
-    <!--Left Block Ends -->
-    <!--  News content end---------------------->
-
-    <!-- table ---------->
-    <div class="w3-container">
-      <hr>
-      <div class="w3-center">
-        <h2>Tables</h2>
-        <p w3-class="w3-large">Don't worry. W3.CSS takes care of your tables.</p>
-      </div>
-      <div class="w3-responsive w3-card-4">
-        <table class="w3-table w3-striped w3-bordered">
-          <thead>
-            <tr class="w3-theme">
-              <th>First Name</th>
-              <th>Last Name</th>
-              <th>Points</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Jill</td>
-              <td>Smith</td>
-              <td>50</td>
-            </tr>
-            <tr class="w3-white">
-              <td>Eve</td>
-              <td>Jackson</td>
-              <td>94</td>
-            </tr>
-            <tr>
-              <td>Adam</td>
-              <td>Johnson</td>
-              <td>67</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-
-      <hr>
-      <h2 class="w3-center">Forms and Lists</h2>
-    </div>
-
-    <div class="w3-row-padding">
-
-      <div class="w3-half">
-        <form class="w3-container w3-card-4">
-          <h2>Input Form</h2>
-          <div class="w3-section">
-            <input class="w3-input" type="text" required>
-            <label>Name</label>
-          </div>
-          <div class="w3-section">
-            <input class="w3-input" type="text" required>
-            <label>Email</label>
-          </div>
-          <div class="w3-section">
-            <input class="w3-input" type="text" required>
-            <label>Subject</label>
-          </div>
-
-          <div class="w3-row">
-            <div class="w3-half">
-              <input id="milk" class="w3-check" type="checkbox" checked="checked">
-              <label>Milk</label>
-              <br>
-              <input id="sugar" class="w3-check" type="checkbox">
-              <label>Sugar</label>
-              <br>
-              <input id="lemon" class="w3-check" type="checkbox" disabled>
-              <label>Lemon (Disabled)</label>
-              <br><br>
-            </div>
-
-            <div class="w3-half">
-              <input id="male" class="w3-radio" type="radio" name="gender" value="male" checked>
-              <label>Male</label>
-              <br>
-              <input id="female" class="w3-radio" type="radio" name="gender" value="female">
-              <label>Female</label>
-              <br>
-              <input id="unknown" class="w3-radio" type="radio" name="gender" value="" disabled>
-              <label> Don't know (Disabled)</label>
-            </div>
-          </div>
-        </form>
-      </div>
-      <div class="w3-half">
-        <div class="w3-card-4 w3-container">
-          <h2>Lists</h2>
-          <ul class="w3-ul w3-margin-bottom">
-            <li>Jill</li>
-            <li>Eve</li>
-            <li>Adam</li>
-          </ul>
-          <br>
-          <ul class="w3-ul w3-border w3-hoverable">
-            <li class="w3-theme">Jill</li>
-            <li>Eve</li>
-            <li>Adam</li>
-            <li>Steve</li>
-          </ul>
-          <br>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-    <hr>
-
-</body>
+<hr />
 
 <!-- Footer -->
 <footer class="w3-container w3-theme-dark w3-padding-16">
@@ -592,7 +475,7 @@
   <script>
   // alert // debug
   function alerting(){
-     alert("Hello! I am an alert box!");
+    alert("Hello! I am an alert box!");
   }
   // Side navigation
   function w3_open() {
