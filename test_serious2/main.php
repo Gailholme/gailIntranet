@@ -7,8 +7,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="css/w3.css">
-  <link rel="stylesheet" href="css/theme.css">
-  <link rel="stylesheet" href="css/customize.css">
+  <link rel="stylesheet" type = "text/css"href="css/theme.css">
+  <link rel="stylesheet" type = "text/css" href="css/customize.css">
+  <!--include css from original -->
+<!--  <link rel="stylesheet" type="text/css"  href="css/original.css" /> -->
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
   <!-- include bootstrap-->
@@ -89,121 +91,178 @@
 </div>
 -->
 <!-- nave bar end-->
-
-</header>
-<!-- header name end --------------------------------------------------------->
-<!-- navigation menu -->
-<div class="w3-bar w3-theme">
-  <a href="#" class="w3-bar-item w3-button w3-padding-16">Home</a>
-  <a href="#" class="w3-bar-item w3-button w3-padding-16">Link 1</a>
-  <div class="w3-dropdown-hover">
-    <button class="w3-button w3-padding-16">
-      Dropdown <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="w3-dropdown-content w3-card-4 w3-bar-block">
-      <a href="javascript:void(0)" class="w3-bar-item w3-button">Link 1</a>
-      <a href="javascript:void(0)" class="w3-bar-item w3-button">Link 2</a>
-      <a href="javascript:void(0)" class="w3-bar-item w3-button">Link 3</a>
-    </div>
-  </div>
-</div>
-<hr />
-
-<!-- buttons (3 button/row)---------------->
-<header class="w3-container w3-left w3-white">
-  <h2>Services</h2>
-</header>
-
-<div >
-  <center>
-    <table width=100% class="w3-container w3-center ">
-      <tr >
-        <td class ="square2 button w3-round-xlarge text_center btn btn-default btn-lg" onclick="alert('Hello World!')" >
-          <input type="image" src="./assets/minion.png" class ="button"/>
-        </td>
-        <td class ="square2 w3-round-xlarge">
-        </td>
-        <td class ="square2 w3-round-xlarge">
-        </td>
-      </td>
-    </tr>
-  </table>
-</center>
-
-</div>
-<hr />
-<div >
-  <center>
-    <table width=100% class="w3-container w3-center ">
-      <tr >
-        <td  onclick="alert('Hello World!')" class ="square w3-round-xlarge text_center" >
-
-        </td>
-        <td class ="square w3-round-xlarge">
-          <input type="image" src="./assets/minion.png" class ="button"onclick="alert('Hello World!')" />
-        </td>
-        <td class ="square w3-round-xlarge">
-        </td>
-    
-      <td class ="square w3-round-xlarge">
-      </td>
-    </tr>
-  </table>
-</center>
-</div>
-<!-- buttons (4 button/row) end-------->
-<hr />
-<!-- buttons ( 3 button/row)---------------->
-<!--<div >
-  <center>
-    <table width=100% class="w3-container w3-center ">
-      <tr >
-        <td class ="square2 button w3-round-xlarge text_center btn btn-default btn-lg" onclick="alert('Hello World!')" >
-          <input type="image" src="./assets/minion.png" class ="button"/>
-        </td>
-        <td class ="square2 w3-round-xlarge">
-        </td>
-        <td class ="square2 w3-round-xlarge">
-        </td>
-      </td>
-    </tr>
-  </table>
-</center>
-
-</div> -->
-<hr />
-<!-- buttons (3 buttons/row)---------------->
 <!--
-<div >
-  <center>
-    <table width=100% class="w3-container w3-center ">
-      <tr >
-        <td class ="square2 button w3-round-xlarge text_center btn btn-default btn-lg" onclick="alert('Hello World!')" >
-          <input type="image" src="./assets/minion.png" class ="button"/>
-        </td>
-        <td class ="square2 w3-round-xlarge">
-        </td>
-        <td class ="square2 w3-round-xlarge">
-        </td>
-      </td>
-    </tr>
-  </table>
-</center>
+<div class ="">
+-->
 
-</div> -->
-<!-- buttons (3 buttons/row)---------------->
+  <!--Top Block Starts -->
+  <!--
+  <div id="company_block">
+    <div>
+        <div class="top_menu">
+          <div class="menu_icon">
+            <a href="/Documents/AWS Phone List.pdf" target="_blank">
+              <img alt="Telephone" height="50" src="./icon/tel_icon.png" onmouseover="hover(this,this.alt);" onmouseout="unhover(this,this.alt);"
+              title="Telephone" /></a></div>
+              <div class="menu_icon">
+                <a href="/Home/DocumentList">
+                  <img alt="Document" height="50" src="./icon/document_icon.png" onmouseover="hover(this,this.alt);" onmouseout="unhover(this,this.alt);"
+                  title="Document" /></a></div>
+                  <div class="menu_icon">
+                    <a href="http://smartsales/marwealth/account/login" target="_blank">
+                      <img alt="MarWealth" height="50" src="./icon/marwealth_icon.png" onmouseover="hover(this,this.alt);" onmouseout="unhover(this,this.alt);"
+                      title="Marketing Wealth" /></a></div>
+                      <div class="menu_icon">
+                        <a href="http://custkm/REFERENCE/" target="_blank">
+                          <img alt="SmartSystem" height="50" src="./icon/smartsys_icon.png"onmouseover="hover(this,this.alt);" onmouseout="unhover(this,this.alt);"
+                          title="Smart System" /></a></div>
+                          <div class="menu_icon">
+                            <a href="/OrderMatch/OrderList">
+                              <img alt="ContraBroker" height="50" src="./icon/contra_icon.png" onmouseover="hover(this,this.alt);" onmouseout="unhover(this,this.alt);"
+                              title="Contra Broker" /></a></div>
+                              <div class="menu_icon">
+                                <a href="/PCLive" target="_blank">
+                                  <img alt="ResearchOnline" height="50" src="./icon/research_icon.png" onmouseover="hover(this,this.alt);" onmouseout="unhover(this,this.alt);"
+                                  title="Research Online" /></a></div>
+                                  <div class="menu_icon">
+                                    <a href="/Service/RedirectToService?serviceAuthenticationType=E_FINANCE&amp;serviceCode=E-Finance" target="_blank">
+                                      <img alt="EFinance" height="50" src="./icon/efinance_icon.png"onmouseover="hover(this,this.alt);" onmouseout="unhover(this,this.alt);"
+                                      title="E-Finance" /></a></div>
+                                      <div class="menu_icon">
+                                        <a href="/Service/RedirectToService?serviceAuthenticationType=ASPEN&amp;serviceCode=Aspen" target="_blank">
+                                          <img alt="Aspen" height="50" src="./icon/aspen_icon.png"onmouseover="hover(this,this.alt);" onmouseout="unhover(this,this.alt);"
+                                          title="Aspen" /></a></div>
+                                          <div class="menu_icon">
+                                            <a href="http://setsmart.domain.local:8080" target="_blank">
+                                              <img alt="SETSmart" height="50" src="./icon/set_icon.png"onmouseover="hover(this,this.alt);" onmouseout="unhover(this,this.alt);"
+                                              title="Set Smart" /></a></div>
+                                              <div class="menu_icon">
+                                                <a href="/" >
+                                                  <img alt="Home" height="50" src="./icon/home_icon.png" onmouseover="hover(this,this.alt);" onmouseout="unhover(this,this.alt);"
+                                                  title="Home" /></a></div>
+                                                </div>
+                                              </div>
+                                            </div>
 
-<hr />
+                                          -->
+                                          <!--
+                                          </div> -->
+                                          <!--Top Block Ends -->
 
-<!-- test bootstrap grid-->
-<!--  <div class="container-fluid">
-<div class="row">
+                                        </header>
+                                        <!-- header name end --------------------------------------------------------->
+                                        <!-- navigation menu -->
+                                        <div class="w3-bar w3-theme">
+                                          <a href="#" class="w3-bar-item w3-button w3-padding-16">Home</a>
+                                          <a href="#" class="w3-bar-item w3-button w3-padding-16">Link 1</a>
+                                          <div class="w3-dropdown-hover">
+                                            <button class="w3-button w3-padding-16">
+                                              Dropdown <i class="fa fa-caret-down"></i>
+                                            </button>
+                                            <div class="w3-dropdown-content w3-card-4 w3-bar-block">
+                                              <a href="javascript:void(0)" class="w3-bar-item w3-button">Link 1</a>
+                                              <a href="javascript:void(0)" class="w3-bar-item w3-button">Link 2</a>
+                                              <a href="javascript:void(0)" class="w3-bar-item w3-button">Link 3</a>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <hr />
 
-<div  class ="col-sm-4 square2 w3-round-xlarge">
-</div>
-<div  class ="col-sm-4 square2 w3-round-xlarge">
-</div>
-<div class =" col-sm-4 square2 w3-round-xlarge">
+                                        <!-- buttons (3 button/row)---------------->
+                                        <header class="w3-container w3-left w3-white">
+                                          <h2>Services</h2>
+                                        </header>
+
+                                        <div >
+                                          <center>
+                                            <table width=100% class="w3-container w3-center ">
+                                              <tr >
+                                                <td class ="square2 button w3-round-xlarge text_center btn btn-default btn-lg" onclick="alert('Hello World!')" >
+                                                  <input type="image" src="./assets/minion.png" class ="button"/>
+                                                </td>
+                                                <td class ="square2 w3-round-xlarge">
+                                                </td>
+                                                <td class ="square2 w3-round-xlarge">
+                                                </td>
+                                              </td>
+                                            </tr>
+                                          </table>
+                                        </center>
+
+                                      </div>
+                                      <hr />
+                                      <div >
+                                        <center>
+                                          <table width=100% class="w3-container w3-center ">
+                                            <tr >
+                                              <td  onclick="alert('Hello World!')" class ="square w3-round-xlarge text_center" >
+
+                                              </td>
+                                              <td class ="square w3-round-xlarge">
+                                                <input type="image" src="./assets/minion.png" class ="button"onclick="alert('Hello World!')" />
+                                              </td>
+                                              <td class ="square w3-round-xlarge">
+                                              </td>
+
+                                              <td class ="square w3-round-xlarge">
+                                              </td>
+                                            </tr>
+                                          </table>
+                                        </center>
+                                      </div>
+                                      <!-- buttons (4 button/row) end-------->
+                                      <hr />
+                                      <!-- buttons ( 3 button/row)---------------->
+                                      <!--<div >
+                                      <center>
+                                      <table width=100% class="w3-container w3-center ">
+                                      <tr >
+                                      <td class ="square2 button w3-round-xlarge text_center btn btn-default btn-lg" onclick="alert('Hello World!')" >
+                                      <input type="image" src="./assets/minion.png" class ="button"/>
+                                    </td>
+                                    <td class ="square2 w3-round-xlarge">
+                                  </td>
+                                  <td class ="square2 w3-round-xlarge">
+                                </td>
+                              </td>
+                            </tr>
+                          </table>
+                        </center>
+
+                      </div> -->
+
+                      <!-- buttons (3 buttons/row)---------------->
+                      <!--
+                      <div >
+                      <center>
+                      <table width=100% class="w3-container w3-center ">
+                      <tr >
+                      <td class ="square2 button w3-round-xlarge text_center btn btn-default btn-lg" onclick="alert('Hello World!')" >
+                      <input type="image" src="./assets/minion.png" class ="button"/>
+                    </td>
+                    <td class ="square2 w3-round-xlarge">
+                  </td>
+                  <td class ="square2 w3-round-xlarge">
+                </td>
+              </td>
+            </tr>
+          </table>
+        </center>
+
+      </div> -->
+      <!-- buttons (3 buttons/row)---------------->
+
+
+
+      <!-- test bootstrap grid-->
+      <!--  <div class="container-fluid">
+      <div class="row">
+
+      <div  class ="col-sm-4 square2 w3-round-xlarge">
+    </div>
+    <div  class ="col-sm-4 square2 w3-round-xlarge">
+  </div>
+  <div class =" col-sm-4 square2 w3-round-xlarge">
 </div>
 </div>
 
@@ -257,27 +316,27 @@
 -->
 <!-- container service selection end-->
 
-<hr>
+
 <!-- picture
 <div>
-  <center>
-    <table width = "100%"  class = "w3-container">
-      <tr >
-        <td>
-          <input type="image" src="./assets/minion.png" class ="button"onclick="alert('Hello World!')" />
-        </td>
-        <td>
-          <input type="image" src="./assets/minion.png"class ="button" onclick="alert('Hello World!')" />
-        </td>
-        <td >
-          <input type="image" src="./assets/minion.png"class ="button" onclick="alert('Hello World!')" />
-        </td>
-      </tr>
-      <hr />
-    </table>
-  </center>
-</div>-->
+<center>
+<table width = "100%"  class = "w3-container">
+<tr >
+<td>
+<input type="image" src="./assets/minion.png" class ="button"onclick="alert('Hello World!')" />
+</td>
+<td>
+<input type="image" src="./assets/minion.png"class ="button" onclick="alert('Hello World!')" />
+</td>
+<td >
+<input type="image" src="./assets/minion.png"class ="button" onclick="alert('Hello World!')" />
+</td>
+</tr>
 <hr />
+</table>
+</center>
+</div>-->
+
 
 <!--
 <div class="w3-row">
@@ -285,10 +344,9 @@
 <div class="w3-col m3  w3-center square"></div>
 <div class="w3-col m3  w3-center sqaure"></div>
 </div>-->
-<hr />
 
 
-<hr />
+
 <!-- test card-->
 <!--
 <div class="w3-container w3-center">
@@ -327,7 +385,7 @@
 </div>!-->
 <!-- test card end-->
 
-
+<hr />
 <!-- buttons end------------>
 <!-- contact-------------------->
 <div>
@@ -394,26 +452,23 @@
 
 
 </div>
-<div class="w3-half">
-  <div class="w3-card-4 w3-container">
-    <h2>Lists</h2>
-
-    <!-- News content ---------------------->
+<div class="w3-half ">
+  <div class ="w3-card-4 w3-container ">
+    <h2>สาขา</h2>
 
     <!--Left Block Starts -->
-    <div id="left_block">
-
+    <div class="w3-section">
       <span>
-        <iframe width="100%" scrolling="yes" height="300" frameborder="0" align="middle" src="http://www.asiawealth.co.th/th/news_activities_feed.php"></iframe>
+        <iframe width="100%" scrolling="yes" height="280px" frameborder="0" align="middle" src="./branch.html"></iframe>
       </span>
     </div>
   </div>
   <!--Left Block Ends -->
   <!--  News content end---------------------->
+</div>
 
 
-</div>
-</div>
+
 
 
 
@@ -435,15 +490,15 @@
 <!--
 <div class="w3-container">
 
-  <button onclick="myAccFunc('Demo1')" class="w3-padding-16 w3-theme w3-button w3-block w3-left-align">Open Section 1</button>
-  <div id="Demo1" class="w3-hide"> -->
+<button onclick="myAccFunc('Demo1')" class="w3-padding-16 w3-theme w3-button w3-block w3-left-align">Open Section 1</button>
+<div id="Demo1" class="w3-hide"> -->
 
-    <!-- test php table from database------------->
-    <!--
-    <div>
-      <?php// include 'listRecord.php'; ?>
-    </div>
-    <!-- test php table from database   end  -------------------------------->
+<!-- test php table from database------------->
+<!--
+<div>
+<?php// include 'listRecord.php'; ?>
+</div>
+<!-- test php table from database   end  -------------------------------->
 <!--  </div>
 </div> -->
 <!-- test php table from database   end  -------------------------------->
