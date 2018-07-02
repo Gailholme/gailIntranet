@@ -78,7 +78,7 @@ $objResult = mysqli_fetch_array($objQuery);
 		<header class="w3-container   w3-padding" id="myHeader">
 
 			<!-- username box -------------------------------------------------->
-			<div class="w3-container w3-panel w3-card  w3-light-gray  w3-right">
+			<div class="w3-container w3-panel w3-card  w3-white  w3-right">
 				<div class=" w3-containerw3-center  w3-xlarge">
 					<p >
 						Welcome to Admin Page! &nbsp; 	<?php echo $objResult["Name"];?> &nbsp;&nbsp;

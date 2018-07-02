@@ -6,11 +6,11 @@
   <title>Mainpage</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="css/w3.css">
-  <link rel="stylesheet" type = "text/css"href="css/theme.css">
-  <link rel="stylesheet" type = "text/css" href="css/customize.css">
+  <link rel="stylesheet" type="text/css" href="./css/w3.css">
+  <link rel="stylesheet" type = "text/css"href="./css/theme.css">
+  <link rel="stylesheet" type = "text/css" href="./css/customize.css">
   <!--include css from original -->
-  <!--  <link rel="stylesheet" type="text/css"  href="css/original.css" /> -->
+   <link rel="stylesheet" type="text/css"  href="css/original.css" />
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
   <!-- include bootstrap-->
@@ -37,7 +37,8 @@
   <div class="w3-content" style="max-width:1500px">
     <!-- Header -->
     <header class="w3-container   w3-padding" id="myHeader">
-      <i onclick="w3_open()" class="fa fa-bars w3-xlarge w3-button w3-simple"></i>
+      <!-- the side bar icon-->
+      <!--<i onclick="w3_open()" class="fa fa-bars w3-xlarge w3-button w3-simple"></i> -- >
       <!-- login box -------------------------------------------------->
       <div class="w3-container w3-white ">
         <div class = "w3-right w3-panel ">
@@ -56,7 +57,7 @@
  <!-- login box end -->
 
      <!-- circular menu bar -->
-      <div class="w3-bar w3-amber">
+
         <!--<a href="#" class="w3-bar-item w3-button w3-padding-16">Home</a>
         <a href="#" class="w3-bar-item w3-button w3-padding-16">Link 1</a>
         <div class="w3-dropdown-hover">
@@ -70,72 +71,79 @@
     </div>
   </div> -->
 
+  <!--Top Block Starts -->
+<br />
+<div class="w3-container">
+ <!-- header name-->
+
+  <div class="w3-left">
+    <h1 class="w3-xxxlarge w3-animate-bottom">Intranet System</h1>
+
+  </div>
+
   <div id="company_block">
-    <div class="w3-row w3-right">
-      <div class="w3-container  w3-col-l1 w3-cell">
-        <a href="/Documents/AWS Phone List.pdf" target="_blank">
-          <img alt="Telephone" height="60" src="./icon/tel_icon.png" onmouseover="hover(this,this.alt);" onmouseout="unhover(this,this.alt);"
-          title="Telephone" /></a></div>
+    <div>
 
-          <div class="w3-container w3-col-l1 w3-cell">
-            <a href="/Home/DocumentList">
-              <img alt="Document" height="60" src="./icon/document_icon.png" onmouseover="hover(this,this.alt);" onmouseout="unhover(this,this.alt);"
-              title="Document" /></a></div>
+    <div id = "logo"class="w3-left" >
+        <a href="/" ><img alt="Asia Wealth Securities Company Limited" height="100" src="./icon/awslogohd.png"
+                title="Asia Wealth Securities Company Limited" /></a></div>
+      <div class="top_menu">
+        <div class="menu_icon">
+          <a href="/Documents/AWS Phone List.pdf" target="_blank">
+            <img alt="Telephone" height="70" src="./icon/tel_icon.png" onmouseover="hover(this,this.alt);" onmouseout="unhover(this,this.alt);"
+            title="Telephone" /></a></div>
+            <div class="menu_icon">
+              <a href="/Home/DocumentList">
+                <img alt="Document" height="70" src="./icon/document_icon.png" onmouseover="hover(this,this.alt);" onmouseout="unhover(this,this.alt);"
+                title="Document" /></a></div>
+                <div class="menu_icon">
+                  <a href="http://smartsales/marwealth/account/login" target="_blank">
+                    <img alt="MarWealth" height="70" src="./icon/marwealth_icon.png" onmouseover="hover(this,this.alt);" onmouseout="unhover(this,this.alt);"
+                    title="Marketing Wealth" /></a></div>
+                    <div class="menu_icon">
+                      <a href="http://custkm/REFERENCE/" target="_blank">
+                        <img alt="SmartSystem" height="70" src="./icon/smartsys_icon.png"onmouseover="hover(this,this.alt);" onmouseout="unhover(this,this.alt);"
+                        title="Smart System" /></a></div>
+                        <div class="menu_icon">
+                          <a href="/OrderMatch/OrderList">
+                            <img alt="ContraBroker" height="70" src="./icon/contra_icon.png" onmouseover="hover(this,this.alt);" onmouseout="unhover(this,this.alt);"
+                            title="Contra Broker" /></a></div>
+                            <div class="menu_icon">
+                              <a href="/PCLive" target="_blank">
+                                <img alt="ResearchOnline" height="70" src="./icon/research_icon.png" onmouseover="hover(this,this.alt);" onmouseout="unhover(this,this.alt);"
+                                title="Research Online" /></a></div>
+                                <div class="menu_icon">
+                                  <a href="/Service/RedirectToService?serviceAuthenticationType=E_FINANCE&amp;serviceCode=E-Finance" target="_blank">
+                                    <img alt="EFinance" height="70" src="./icon/efinance_icon.png"onmouseover="hover(this,this.alt);" onmouseout="unhover(this,this.alt);"
+                                    title="E-Finance" /></a></div>
+                                    <div class="menu_icon">
+                                      <a href="/Service/RedirectToService?serviceAuthenticationType=ASPEN&amp;serviceCode=Aspen" target="_blank">
+                                        <img alt="Aspen" height="70" src="./icon/aspen_icon.png"onmouseover="hover(this,this.alt);" onmouseout="unhover(this,this.alt);"
+                                        title="Aspen" /></a></div>
+                                        <div class="menu_icon">
+                                          <a href="http://setsmart.domain.local:8080" target="_blank">
+                                            <img alt="SETSmart" height="70" src="./icon/set_icon.png"onmouseover="hover(this,this.alt);" onmouseout="unhover(this,this.alt);"
+                                            title="Set Smart" /></a></div>
 
-              <div class="w3-container w3-col-l1 w3-cell">
-                <a href="http://smartsales/marwealth/account/login" target="_blank">
-                  <img alt="MarWealth" height="60" src="./icon/marwealth_icon.png" onmouseover="hover(this,this.alt);" onmouseout="unhover(this,this.alt);"
-                  title="Marketing Wealth" /></a></div>
-
-                  <div class="w3-container w3-col-l1 w3-cell">
-                    <a href="http://custkm/REFERENCE/" target="_blank">
-                      <img alt="SmartSystem" height="60" src="./icon/smartsys_icon.png"onmouseover="hover(this,this.alt);" onmouseout="unhover(this,this.alt);"
-                      title="Smart System" /></a></div>
-
-                      <div class="w3-container w3-col-l1 w3-cell">
-                        <a href="/OrderMatch/OrderList">
-                          <img alt="ContraBroker" height="60" src="./icon/contra_icon.png" onmouseover="hover(this,this.alt);" onmouseout="unhover(this,this.alt);"
-                          title="Contra Broker" /></a></div>
-
-                          <div class="w3-container w3-col-l1 w3-cell">
-                            <a href="/PCLive" target="_blank">
-                              <img alt="ResearchOnline" height="60" src="./icon/research_icon.png" onmouseover="hover(this,this.alt);" onmouseout="unhover(this,this.alt);"
-                              title="Research Online" /></a></div>
-
-                              <div class="w3-container w3-col-l1 w3-cell">
-                                <a href="/Service/RedirectToService?serviceAuthenticationType=E_FINANCE&amp;serviceCode=E-Finance" target="_blank">
-                                  <img alt="EFinance" height="60" src="./icon/efinance_icon.png"onmouseover="hover(this,this.alt);" onmouseout="unhover(this,this.alt);"
-                                  title="E-Finance" /></a></div>
-
-                                  <div class="w3-container w3-col-l1 w3-cell">
-                                    <a href="/Service/RedirectToService?serviceAuthenticationType=ASPEN&amp;serviceCode=Aspen" target="_blank">
-                                      <img alt="Aspen" height="60" src="./icon/aspen_icon.png"onmouseover="hover(this,this.alt);" onmouseout="unhover(this,this.alt);"
-                                      title="Aspen" /></a></div>
-
-                                      <div class="w3-container w3-col-l1 w3-cell">
-                                        <a href="http://setsmart.domain.local:8080" target="_blank">
-                                          <img alt="SETSmart" height="60" src="./icon/set_icon.png"onmouseover="hover(this,this.alt);" onmouseout="unhover(this,this.alt);"
-                                          title="Set Smart" /></a></div>
-
-                                          <div class="w3-container w3-col-l1 w3-cell">
-                                            <a href="/" >
-                                              <img alt="Home" height="60" src="./icon/home_icon.png" onmouseover="hover(this,this.alt);" onmouseout="unhover(this,this.alt);"
-                                              title="Home" /></a></div>
-
+                                              </div>
                                             </div>
-
-
                                           </div>
+
+
+
                                         </div>
+
+                                        <!--Top Block Ends -->
+
+                                        <div id ="blueline" class=" w3-container w3-right">
+
+                                        </div>
+
+
                                         <!-- circular menu end -->
                                         <br />
 
 
-                                        <!-- header name-->
-                                        <div class="w3-center">
-                                          <h1 class="w3-xxxlarge w3-animate-bottom">ASIAWEALTH</h1>
-                                          <h4>Intranet System </h4>
-                                        </div>
                                         <div class="w3-content" style="max-width:1500px">
 
 
@@ -192,11 +200,14 @@
                               <table width=100% class="w3-container w3-center ">
                                 <tr >
                                   <td class ="square2 button w3-round-xlarge text_center btn btn-default btn-lg" onclick="alert('Hello World!')" >
-                                    <input type="image" src="./assets/minion.png" class ="button"/>
+                                    <h2>SET SMART</h2>
+                                  <!--  <input type="image" src="./assets/minion.png" class ="button"/> -->
                                   </td>
                                   <td class ="square2 w3-round-xlarge">
+                                    <h2> Aspen</h2>
                                   </td>
                                   <td class ="square2 w3-round-xlarge">
+                                    <h2> E-FIN</h2>
                                   </td>
                                 </td>
                               </tr>
@@ -210,15 +221,17 @@
                             <table width=100% class="w3-container w3-center ">
                               <tr >
                                 <td  onclick="alert('Hello World!')" class ="square w3-round-xlarge text_center" >
-
+                                  <h2>RESEARCH ANALYSIS</h2>
                                 </td>
                                 <td class ="square w3-round-xlarge">
                                   <input type="image" src="./assets/minion.png" class ="button"onclick="alert('Hello World!')" />
                                 </td>
                                 <td class ="square w3-round-xlarge">
+                                  <h2>SMART SYSTEM</h2>
                                 </td>
 
                                 <td class ="square w3-round-xlarge">
+                                  <h2>DOCUMENT</h2>
                                 </td>
                               </tr>
                             </table>
