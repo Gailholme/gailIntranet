@@ -10,7 +10,7 @@
   <link rel="stylesheet" type = "text/css"href="css/theme.css">
   <link rel="stylesheet" type = "text/css" href="css/customize.css">
   <!--include css from original -->
-<!--  <link rel="stylesheet" type="text/css"  href="css/original.css" /> -->
+  <!--  <link rel="stylesheet" type="text/css"  href="css/original.css" /> -->
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
   <!-- include bootstrap-->
@@ -39,7 +39,7 @@
     <header class="w3-container   w3-padding" id="myHeader">
       <i onclick="w3_open()" class="fa fa-bars w3-xlarge w3-button w3-simple"></i>
       <!-- login box -------------------------------------------------->
-      <div class="w3-container w3-light-gray ">
+      <div class="w3-container w3-white ">
         <div class = "w3-right w3-panel ">
 
           <form  name= "login1" method="post" action="check_login.php" >
@@ -53,216 +53,230 @@
           </form>
         </div>
       </div>
-      <hr />
-      <!-- header name-->
-      <div class="w3-center">
-        <h1 class="w3-xxxlarge w3-animate-bottom">ASIAWEALTH</h1>
-        <h4>Intranet System </h4>
-      </div>
+ <!-- login box end -->
 
+     <!-- circular menu bar -->
+      <div class="w3-bar w3-amber">
+        <!--<a href="#" class="w3-bar-item w3-button w3-padding-16">Home</a>
+        <a href="#" class="w3-bar-item w3-button w3-padding-16">Link 1</a>
+        <div class="w3-dropdown-hover">
+        <button class="w3-button w3-padding-16">
+        Dropdown <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="w3-dropdown-content w3-card-4 w3-bar-block">
+      <a href="javascript:void(0)" class="w3-bar-item w3-button">Link 1</a>
+      <a href="javascript:void(0)" class="w3-bar-item w3-button">Link 2</a>
+      <a href="javascript:void(0)" class="w3-bar-item w3-button">Link 3</a>
+    </div>
+  </div> -->
 
-
-      <!-- Image Header -->
-
-      <!--
-      <div class="w3-display-container w3-animate-opacity">
-      <img src="assets/sailboat.jpg" alt="boat" style="width:100%;min-height:350px;max-height:600px;">
-    --><!--- text in middle of pics-->
-    <!--  <div class="w3-padding w3-display-middle"><div class="w3-center">
-    <h1 class="w3-xxxlarge w3-animate-bottom w3-text-indigo">ASIAWEALTH</h1>
-    <h3 class= "w3-text-amber">Intranet System </h3>
-  </div></div> -->
-  <!--<div class="w3-container w3-display-middle w3-margin-bottom">
-  <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-xlarge w3-theme w3-hover-teal" title="Go To W3.CSS">LEARN W3.CSS</button>
-</div></div>-->
-
-
-
-
-<!-- Navbar (sit on top) -->
-<!--
-<div class="w3-top w3-hide-small">
-<div class="w3-bar w3-xlarge w3-black w3-opacity w3-hover-opacity-off" id="myNavbar">
-<a href="#" class="w3-bar-item w3-button">HOME</a>
-<a href="#menu" class="w3-bar-item w3-button">MENU</a>
-<a href="#about" class="w3-bar-item w3-button">ABOUT</a>
-<a href="#googleMap" class="w3-bar-item w3-button">CONTACT</a>
-</div>
-</div>
--->
-<!-- nave bar end-->
-<!--
-<div class ="">
--->
-
-  <!--Top Block Starts -->
-  <!--
   <div id="company_block">
-    <div>
-        <div class="top_menu">
-          <div class="menu_icon">
-            <a href="/Documents/AWS Phone List.pdf" target="_blank">
-              <img alt="Telephone" height="50" src="./icon/tel_icon.png" onmouseover="hover(this,this.alt);" onmouseout="unhover(this,this.alt);"
-              title="Telephone" /></a></div>
-              <div class="menu_icon">
-                <a href="/Home/DocumentList">
-                  <img alt="Document" height="50" src="./icon/document_icon.png" onmouseover="hover(this,this.alt);" onmouseout="unhover(this,this.alt);"
-                  title="Document" /></a></div>
-                  <div class="menu_icon">
-                    <a href="http://smartsales/marwealth/account/login" target="_blank">
-                      <img alt="MarWealth" height="50" src="./icon/marwealth_icon.png" onmouseover="hover(this,this.alt);" onmouseout="unhover(this,this.alt);"
-                      title="Marketing Wealth" /></a></div>
-                      <div class="menu_icon">
-                        <a href="http://custkm/REFERENCE/" target="_blank">
-                          <img alt="SmartSystem" height="50" src="./icon/smartsys_icon.png"onmouseover="hover(this,this.alt);" onmouseout="unhover(this,this.alt);"
-                          title="Smart System" /></a></div>
-                          <div class="menu_icon">
-                            <a href="/OrderMatch/OrderList">
-                              <img alt="ContraBroker" height="50" src="./icon/contra_icon.png" onmouseover="hover(this,this.alt);" onmouseout="unhover(this,this.alt);"
-                              title="Contra Broker" /></a></div>
-                              <div class="menu_icon">
-                                <a href="/PCLive" target="_blank">
-                                  <img alt="ResearchOnline" height="50" src="./icon/research_icon.png" onmouseover="hover(this,this.alt);" onmouseout="unhover(this,this.alt);"
-                                  title="Research Online" /></a></div>
-                                  <div class="menu_icon">
-                                    <a href="/Service/RedirectToService?serviceAuthenticationType=E_FINANCE&amp;serviceCode=E-Finance" target="_blank">
-                                      <img alt="EFinance" height="50" src="./icon/efinance_icon.png"onmouseover="hover(this,this.alt);" onmouseout="unhover(this,this.alt);"
-                                      title="E-Finance" /></a></div>
-                                      <div class="menu_icon">
-                                        <a href="/Service/RedirectToService?serviceAuthenticationType=ASPEN&amp;serviceCode=Aspen" target="_blank">
-                                          <img alt="Aspen" height="50" src="./icon/aspen_icon.png"onmouseover="hover(this,this.alt);" onmouseout="unhover(this,this.alt);"
-                                          title="Aspen" /></a></div>
-                                          <div class="menu_icon">
-                                            <a href="http://setsmart.domain.local:8080" target="_blank">
-                                              <img alt="SETSmart" height="50" src="./icon/set_icon.png"onmouseover="hover(this,this.alt);" onmouseout="unhover(this,this.alt);"
-                                              title="Set Smart" /></a></div>
-                                              <div class="menu_icon">
-                                                <a href="/" >
-                                                  <img alt="Home" height="50" src="./icon/home_icon.png" onmouseover="hover(this,this.alt);" onmouseout="unhover(this,this.alt);"
-                                                  title="Home" /></a></div>
-                                                </div>
-                                              </div>
+    <div class="w3-row w3-right">
+      <div class="w3-container  w3-col-l1 w3-cell">
+        <a href="/Documents/AWS Phone List.pdf" target="_blank">
+          <img alt="Telephone" height="60" src="./icon/tel_icon.png" onmouseover="hover(this,this.alt);" onmouseout="unhover(this,this.alt);"
+          title="Telephone" /></a></div>
+
+          <div class="w3-container w3-col-l1 w3-cell">
+            <a href="/Home/DocumentList">
+              <img alt="Document" height="60" src="./icon/document_icon.png" onmouseover="hover(this,this.alt);" onmouseout="unhover(this,this.alt);"
+              title="Document" /></a></div>
+
+              <div class="w3-container w3-col-l1 w3-cell">
+                <a href="http://smartsales/marwealth/account/login" target="_blank">
+                  <img alt="MarWealth" height="60" src="./icon/marwealth_icon.png" onmouseover="hover(this,this.alt);" onmouseout="unhover(this,this.alt);"
+                  title="Marketing Wealth" /></a></div>
+
+                  <div class="w3-container w3-col-l1 w3-cell">
+                    <a href="http://custkm/REFERENCE/" target="_blank">
+                      <img alt="SmartSystem" height="60" src="./icon/smartsys_icon.png"onmouseover="hover(this,this.alt);" onmouseout="unhover(this,this.alt);"
+                      title="Smart System" /></a></div>
+
+                      <div class="w3-container w3-col-l1 w3-cell">
+                        <a href="/OrderMatch/OrderList">
+                          <img alt="ContraBroker" height="60" src="./icon/contra_icon.png" onmouseover="hover(this,this.alt);" onmouseout="unhover(this,this.alt);"
+                          title="Contra Broker" /></a></div>
+
+                          <div class="w3-container w3-col-l1 w3-cell">
+                            <a href="/PCLive" target="_blank">
+                              <img alt="ResearchOnline" height="60" src="./icon/research_icon.png" onmouseover="hover(this,this.alt);" onmouseout="unhover(this,this.alt);"
+                              title="Research Online" /></a></div>
+
+                              <div class="w3-container w3-col-l1 w3-cell">
+                                <a href="/Service/RedirectToService?serviceAuthenticationType=E_FINANCE&amp;serviceCode=E-Finance" target="_blank">
+                                  <img alt="EFinance" height="60" src="./icon/efinance_icon.png"onmouseover="hover(this,this.alt);" onmouseout="unhover(this,this.alt);"
+                                  title="E-Finance" /></a></div>
+
+                                  <div class="w3-container w3-col-l1 w3-cell">
+                                    <a href="/Service/RedirectToService?serviceAuthenticationType=ASPEN&amp;serviceCode=Aspen" target="_blank">
+                                      <img alt="Aspen" height="60" src="./icon/aspen_icon.png"onmouseover="hover(this,this.alt);" onmouseout="unhover(this,this.alt);"
+                                      title="Aspen" /></a></div>
+
+                                      <div class="w3-container w3-col-l1 w3-cell">
+                                        <a href="http://setsmart.domain.local:8080" target="_blank">
+                                          <img alt="SETSmart" height="60" src="./icon/set_icon.png"onmouseover="hover(this,this.alt);" onmouseout="unhover(this,this.alt);"
+                                          title="Set Smart" /></a></div>
+
+                                          <div class="w3-container w3-col-l1 w3-cell">
+                                            <a href="/" >
+                                              <img alt="Home" height="60" src="./icon/home_icon.png" onmouseover="hover(this,this.alt);" onmouseout="unhover(this,this.alt);"
+                                              title="Home" /></a></div>
+
                                             </div>
 
-                                          -->
-                                          <!--
-                                          </div> -->
-                                          <!--Top Block Ends -->
 
-                                        </header>
-                                        <!-- header name end --------------------------------------------------------->
-                                        <!-- navigation menu -->
-                                        <div class="w3-bar w3-theme">
-                                          <a href="#" class="w3-bar-item w3-button w3-padding-16">Home</a>
-                                          <a href="#" class="w3-bar-item w3-button w3-padding-16">Link 1</a>
-                                          <div class="w3-dropdown-hover">
-                                            <button class="w3-button w3-padding-16">
-                                              Dropdown <i class="fa fa-caret-down"></i>
-                                            </button>
-                                            <div class="w3-dropdown-content w3-card-4 w3-bar-block">
-                                              <a href="javascript:void(0)" class="w3-bar-item w3-button">Link 1</a>
-                                              <a href="javascript:void(0)" class="w3-bar-item w3-button">Link 2</a>
-                                              <a href="javascript:void(0)" class="w3-bar-item w3-button">Link 3</a>
-                                            </div>
                                           </div>
                                         </div>
-                                        <hr />
+                                        <!-- circular menu end -->
+                                        <br />
 
-                                        <!-- buttons (3 button/row)---------------->
-                                        <header class="w3-container w3-left w3-white">
-                                          <h2>Services</h2>
-                                        </header>
 
-                                        <div >
-                                          <center>
-                                            <table width=100% class="w3-container w3-center ">
-                                              <tr >
-                                                <td class ="square2 button w3-round-xlarge text_center btn btn-default btn-lg" onclick="alert('Hello World!')" >
-                                                  <input type="image" src="./assets/minion.png" class ="button"/>
-                                                </td>
-                                                <td class ="square2 w3-round-xlarge">
-                                                </td>
-                                                <td class ="square2 w3-round-xlarge">
-                                                </td>
-                                              </td>
-                                            </tr>
-                                          </table>
-                                        </center>
+                                        <!-- header name-->
+                                        <div class="w3-center">
+                                          <h1 class="w3-xxxlarge w3-animate-bottom">ASIAWEALTH</h1>
+                                          <h4>Intranet System </h4>
+                                        </div>
+                                        <div class="w3-content" style="max-width:1500px">
 
-                                      </div>
-                                      <hr />
-                                      <div >
-                                        <center>
-                                          <table width=100% class="w3-container w3-center ">
-                                            <tr >
-                                              <td  onclick="alert('Hello World!')" class ="square w3-round-xlarge text_center" >
 
-                                              </td>
-                                              <td class ="square w3-round-xlarge">
-                                                <input type="image" src="./assets/minion.png" class ="button"onclick="alert('Hello World!')" />
-                                              </td>
-                                              <td class ="square w3-round-xlarge">
-                                              </td>
 
-                                              <td class ="square w3-round-xlarge">
-                                              </td>
-                                            </tr>
-                                          </table>
-                                        </center>
-                                      </div>
-                                      <!-- buttons (4 button/row) end-------->
-                                      <hr />
-                                      <!-- buttons ( 3 button/row)---------------->
-                                      <!--<div >
-                                      <center>
-                                      <table width=100% class="w3-container w3-center ">
-                                      <tr >
-                                      <td class ="square2 button w3-round-xlarge text_center btn btn-default btn-lg" onclick="alert('Hello World!')" >
-                                      <input type="image" src="./assets/minion.png" class ="button"/>
-                                    </td>
-                                    <td class ="square2 w3-round-xlarge">
+
+
+                                          <!-- Image Header -->
+
+                                          <!--
+                                          <div class="w3-display-container w3-animate-opacity">
+                                          <img src="assets/sailboat.jpg" alt="boat" style="width:100%;min-height:350px;max-height:600px;">
+                                        --><!--- text in middle of pics-->
+                                        <!--  <div class="w3-padding w3-display-middle"><div class="w3-center">
+                                        <h1 class="w3-xxxlarge w3-animate-bottom w3-text-indigo">ASIAWEALTH</h1>
+                                        <h3 class= "w3-text-amber">Intranet System </h3>
+                                      </div></div> -->
+                                      <!--<div class="w3-container w3-display-middle w3-margin-bottom">
+                                      <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-xlarge w3-theme w3-hover-teal" title="Go To W3.CSS">LEARN W3.CSS</button>
+                                    </div></div>-->
+
+
+
+
+                                    <!-- Navbar (sit on top) -->
+                                    <!--
+                                    <div class="w3-top w3-hide-small">
+                                    <div class="w3-bar w3-xlarge w3-black w3-opacity w3-hover-opacity-off" id="myNavbar">
+                                    <a href="#" class="w3-bar-item w3-button">HOME</a>
+                                    <a href="#menu" class="w3-bar-item w3-button">MENU</a>
+                                    <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
+                                    <a href="#googleMap" class="w3-bar-item w3-button">CONTACT</a>
+                                  </div>
+                                </div>
+                              -->
+                              <!-- nave bar end-->
+                              <!--
+                              <div class ="">
+                            -->
+
+
+                          </header>
+                          <!-- header name end --------------------------------------------------------->
+                          <!-- navigation menu -->
+
+                          <hr />
+
+                          <!-- buttons (3 button/row)---------------->
+                          <header class="w3-container w3-left w3-white">
+                            <h2>Services</h2>
+                          </header>
+
+                          <div >
+                            <center>
+                              <table width=100% class="w3-container w3-center ">
+                                <tr >
+                                  <td class ="square2 button w3-round-xlarge text_center btn btn-default btn-lg" onclick="alert('Hello World!')" >
+                                    <input type="image" src="./assets/minion.png" class ="button"/>
                                   </td>
                                   <td class ="square2 w3-round-xlarge">
+                                  </td>
+                                  <td class ="square2 w3-round-xlarge">
+                                  </td>
                                 </td>
-                              </td>
-                            </tr>
-                          </table>
-                        </center>
+                              </tr>
+                            </table>
+                          </center>
 
-                      </div> -->
+                        </div>
+                        <hr />
+                        <div >
+                          <center>
+                            <table width=100% class="w3-container w3-center ">
+                              <tr >
+                                <td  onclick="alert('Hello World!')" class ="square w3-round-xlarge text_center" >
 
-                      <!-- buttons (3 buttons/row)---------------->
-                      <!--
-                      <div >
-                      <center>
-                      <table width=100% class="w3-container w3-center ">
-                      <tr >
-                      <td class ="square2 button w3-round-xlarge text_center btn btn-default btn-lg" onclick="alert('Hello World!')" >
-                      <input type="image" src="./assets/minion.png" class ="button"/>
+                                </td>
+                                <td class ="square w3-round-xlarge">
+                                  <input type="image" src="./assets/minion.png" class ="button"onclick="alert('Hello World!')" />
+                                </td>
+                                <td class ="square w3-round-xlarge">
+                                </td>
+
+                                <td class ="square w3-round-xlarge">
+                                </td>
+                              </tr>
+                            </table>
+                          </center>
+                        </div>
+                        <!-- buttons (4 button/row) end-------->
+                        <hr />
+                        <!-- buttons ( 3 button/row)---------------->
+                        <!--<div >
+                        <center>
+                        <table width=100% class="w3-container w3-center ">
+                        <tr >
+                        <td class ="square2 button w3-round-xlarge text_center btn btn-default btn-lg" onclick="alert('Hello World!')" >
+                        <input type="image" src="./assets/minion.png" class ="button"/>
+                      </td>
+                      <td class ="square2 w3-round-xlarge">
                     </td>
                     <td class ="square2 w3-round-xlarge">
                   </td>
-                  <td class ="square2 w3-round-xlarge">
                 </td>
-              </td>
-            </tr>
-          </table>
-        </center>
+              </tr>
+            </table>
+          </center>
 
-      </div> -->
-      <!-- buttons (3 buttons/row)---------------->
+        </div> -->
+
+        <!-- buttons (3 buttons/row)---------------->
+        <!--
+        <div >
+        <center>
+        <table width=100% class="w3-container w3-center ">
+        <tr >
+        <td class ="square2 button w3-round-xlarge text_center btn btn-default btn-lg" onclick="alert('Hello World!')" >
+        <input type="image" src="./assets/minion.png" class ="button"/>
+      </td>
+      <td class ="square2 w3-round-xlarge">
+    </td>
+    <td class ="square2 w3-round-xlarge">
+  </td>
+</td>
+</tr>
+</table>
+</center>
+
+</div> -->
+<!-- buttons (3 buttons/row)---------------->
 
 
 
-      <!-- test bootstrap grid-->
-      <!--  <div class="container-fluid">
-      <div class="row">
+<!-- test bootstrap grid-->
+<!--  <div class="container-fluid">
+<div class="row">
 
-      <div  class ="col-sm-4 square2 w3-round-xlarge">
-    </div>
-    <div  class ="col-sm-4 square2 w3-round-xlarge">
-  </div>
-  <div class =" col-sm-4 square2 w3-round-xlarge">
+<div  class ="col-sm-4 square2 w3-round-xlarge">
+</div>
+<div  class ="col-sm-4 square2 w3-round-xlarge">
+</div>
+<div class =" col-sm-4 square2 w3-round-xlarge">
 </div>
 </div>
 
@@ -498,7 +512,7 @@
 <div>
 <?php// include 'listRecord.php'; ?>
 </div>
-<!-- test php table from database   end  -------------------------------->
+<! test php table from database   end  -------------------------------->
 <!--  </div>
 </div> -->
 <!-- test php table from database   end  -------------------------------->
@@ -522,8 +536,21 @@
     <a class="w3-text-white" href="#myHeader"><span class="w3-xlarge">
       <i class="fa fa-chevron-circle-up"></i></span></a>
     </div>
+    <span>
+        <a href="/">Home</a> <span>|</span>
+        <a href="http://setsmart.domain.local:8080" target="_blank">SETSMART</a> <span>|</span>
+        <a href="/Service/RedirectToService?serviceAuthenticationType=E_FINANCE&amp;serviceCode=E-Finance" target="_blank">E-FINANCE </a><span>|</span>
+        <a href="/PCLive" target="_blank">Research Online </a><span>|</span>
+        <a href="/OrderMatch/OrderList">Contra Broker</a><span>|</span>
+        <a href="http://custkm/REFERENCE/" target="_blank">SMART System</a> <span>|</span>
+        <a href="/Home/DocumentList">Documents</a><span>|</span>
+        <a href="/Documents/AWS Phone List.pdf" target="_blank">Tel</a>
+    </span>
+
+
     <p>Remember to check out our  <a href="w3css_references.asp" class="w3-btn w3-theme-light" target="_blank">W3.CSS Reference</a></p>
   </footer>
+
   </html>
 
   <!-- Script for Sidebar, Tabs, Accordions, Progress bars and slideshows -->

@@ -16,9 +16,9 @@
   margin-left: 50px;
   margin-right: 50px;
   border = 1;
-  height: 250px;
-  width: 250px;
-  background-color: #555 ;
+  height: 150px;
+  width: 150px;
+  background-color: #1B4F72 ;
 }
 
 .square2{
@@ -27,8 +27,8 @@
   margin-left: 50px;
   margin-right: 50px;
   border = 1;
-  height: 350px;
-  width: 350px;
+  height: 200px;
+  width: 200px;
   background-color:#1B4F72  ;
 
 }
@@ -40,4 +40,10 @@
 }
 .fontg{
   font-family: fantasy !important;
+}
+#blueline {
+    width: 100%;
+    float: left;
+    padding-top: 9px;
+    background: #1234B0;
 }
