@@ -88,11 +88,11 @@ $objResult = mysqli_fetch_array($objQuery);
 						<a class="w3-btn w3-black w3-right" href="main.php">Logout</a>
 				</div>
 				<!-- username box end ------>
-				<hr />
+
 				<!-- header name-->
 				<div class="w3-center w3-container">
-					<h1 class="w3-xxxlarge w3-animate-bottom">ASIAWEALTH</h1>
-					<h4>Intranet System </h4>
+					<h1 class="w3-xxxlarge w3-animate-bottom">Intranet System</h1>
+					<h4> </h4>
 				</div>
 
 
@@ -127,14 +127,19 @@ $objResult = mysqli_fetch_array($objQuery);
 -->
 <!-- nave bar end-->
 
+
 <div class ="">
 
 
 	<!--Top Block Starts -->
 
 	<div id="company_block">
+
 		<div>
-			<div class="top_menu">
+			<div id = ""class="w3-container w3-left" >
+					<a href="/" ><img alt="Asia Wealth Securities Company Limited" height="100" src="./icon/awslogohd.png"
+									title="Asia Wealth Securities Company Limited" /></a></div>
+			<div class="top_menu w3-container">
 				<div class="menu_icon">
 					<a href="/Documents/AWS Phone List.pdf" target="_blank">
 						<img alt="Telephone" height="50" src="./icon/tel_icon.png" onmouseover="hover(this,this.alt);" onmouseout="unhover(this,this.alt);"
@@ -188,6 +193,7 @@ $objResult = mysqli_fetch_array($objQuery);
 																				<div  id ="top_block" class="w3-right">
 
 																				</div>
+
 
 
 

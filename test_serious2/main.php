@@ -134,10 +134,10 @@
                                         </div>
 
                                         <!--Top Block Ends -->
-
+                                       <!--
                                         <div id ="blueline" class=" w3-container w3-right">
 
-                                        </div>
+                                        </div> -->
 
 
                                         <!-- circular menu end -->
