@@ -68,26 +68,48 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <body>
+	<div class="w3-top">
+ <div class="w3-bar w3-theme-d2 w3-left-align">
+
+	<!-- username box -------------------------------------------------->
+	<div class="w3-container w3-panel w3-card  w3-white  w3-right">
+		<div class=" w3-containerw3-center  w3-xlarge">
+			<p >
+				Welcome to User Page! &nbsp; 	<?php echo $objResult["Name"];?> &nbsp;&nbsp;
+			</p>
+		</div>
+
+				<a class="w3-btn w3-black w3-right" href="main.php">Logout</a>
+		</div>
+		<br /><br /><br />
+		<!-- username box end ------>
+		<a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-amber w3-theme-d2 " href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+		<a href="#" class="w3-bar-item w3-button w3-teal"><i class="fa fa-home w3-margin-right"></i>Logo</a>
+		<a href="#team" class="w3-bar-item w3-button w3-hide-small w3-hover-amber">Team</a>
+		<a href="#work" class="w3-bar-item w3-button w3-hide-small w3-hover-amber">Work</a>
+
+		<a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-hover-amber">Contact</a>
+			<div class="w3-dropdown-hover w3-hide-small">
+			<button class="w3-button w3-hover-amber" title="Notifications">Dropdown <i class="fa fa-caret-down"></i></button>
+			<div class="w3-dropdown-content w3-card-4 w3-bar-block">
+				<a href="#" class="w3-bar-item w3-button">Link</a>
+				<a href="#" class="w3-bar-item w3-button">Link</a>
+				<a href="#" class="w3-bar-item w3-button">Link</a>
+			</div>
+		</div>
+ </div>
+
+</div>
 
 	<!-- !PAGE CONTENT! -->
 	<div class="w3-content" style="max-width:1500px">
 		<!-- Header -->
 		<header class="w3-container   w3-padding" id="myHeader">
 
-			<!-- username box -------------------------------------------------->
-			<div class="w3-container w3-panel w3-card  w3-white  w3-right">
-				<div class=" w3-containerw3-center  w3-xlarge">
-					<p >
-						Welcome to User Page! &nbsp; 	<?php echo $objResult["Name"];?> &nbsp;&nbsp;
-					</p>
-				</div>
 
-						<a class="w3-btn w3-black w3-right" href="main.php">Logout</a>
-				</div>
-				<!-- username box end ------>
 
 				<!-- header name-->
-				<div class="w3-center w3-container">
+				<div class="w3-center w3-left w3-container">
 					<h1 class="w3-xxxlarge w3-animate-bottom">Intranet System</h1>
 					<h4> </h4>
 				</div>
@@ -125,71 +147,6 @@
 <!-- nave bar end-->
 
 
-<div class ="">
-
-
-	<!--Top Block Starts -->
-
-	<div id="company_block">
-
-		<div>
-			<div id = ""class="w3-container w3-left" >
-					<a href="/" ><img alt="Asia Wealth Securities Company Limited" height="100" src="./icon/awslogohd.png"
-									title="Asia Wealth Securities Company Limited" /></a></div>
-			<div class="top_menu w3-container">
-				<div class="menu_icon">
-					<a href="/Documents/AWS Phone List.pdf" target="_blank">
-						<img alt="Telephone" height="50" src="./icon/tel_icon.png" onmouseover="hover(this,this.alt);" onmouseout="unhover(this,this.alt);"
-						title="Telephone" /></a></div>
-						<div class="menu_icon">
-							<a href="/Home/DocumentList">
-								<img alt="Document" height="50" src="./icon/document_icon.png" onmouseover="hover(this,this.alt);" onmouseout="unhover(this,this.alt);"
-								title="Document" /></a></div>
-								<div class="menu_icon">
-									<a href="http://smartsales/marwealth/account/login" target="_blank">
-										<img alt="MarWealth" height="50" src="./icon/marwealth_icon.png" onmouseover="hover(this,this.alt);" onmouseout="unhover(this,this.alt);"
-										title="Marketing Wealth" /></a></div>
-										<div class="menu_icon">
-											<a href="http://custkm/REFERENCE/" target="_blank">
-												<img alt="SmartSystem" height="50" src="./icon/smartsys_icon.png"onmouseover="hover(this,this.alt);" onmouseout="unhover(this,this.alt);"
-												title="Smart System" /></a></div>
-												<div class="menu_icon">
-													<a href="/OrderMatch/OrderList">
-														<img alt="ContraBroker" height="50" src="./icon/contra_icon.png" onmouseover="hover(this,this.alt);" onmouseout="unhover(this,this.alt);"
-														title="Contra Broker" /></a></div>
-														<div class="menu_icon">
-															<a href="/PCLive" target="_blank">
-																<img alt="ResearchOnline" height="50" src="./icon/research_icon.png" onmouseover="hover(this,this.alt);" onmouseout="unhover(this,this.alt);"
-																title="Research Online" /></a></div>
-																<div class="menu_icon">
-																	<a href="/Service/RedirectToService?serviceAuthenticationType=E_FINANCE&amp;serviceCode=E-Finance" target="_blank">
-																		<img alt="EFinance" height="50" src="./icon/efinance_icon.png"onmouseover="hover(this,this.alt);" onmouseout="unhover(this,this.alt);"
-																		title="E-Finance" /></a></div>
-																		<div class="menu_icon">
-																			<a href="/Service/RedirectToService?serviceAuthenticationType=ASPEN&amp;serviceCode=Aspen" target="_blank">
-																				<img alt="Aspen" height="50" src="./icon/aspen_icon.png"onmouseover="hover(this,this.alt);" onmouseout="unhover(this,this.alt);"
-																				title="Aspen" /></a></div>
-																				<div class="menu_icon">
-																					<a href="http://setsmart.domain.local:8080" target="_blank">
-																						<img alt="SETSmart" height="50" src="./icon/set_icon.png"onmouseover="hover(this,this.alt);" onmouseout="unhover(this,this.alt);"
-																						title="Set Smart" /></a></div>
-																						<div class="menu_icon">
-																							<a href="/" >
-																								<img alt="Home" height="50" src="./icon/home_icon.png" onmouseover="hover(this,this.alt);" onmouseout="unhover(this,this.alt);"
-																								title="Home" /></a></div>
-																							</div>
-																						</div>
-																					</div>
-
-
-
-																				</div>
-
-																				<!--Top Block Ends -->
-
-																				<div  id ="top_block" class="w3-right">
-
-																				</div>
 
 
 
@@ -218,107 +175,125 @@
                                        <div class="w3-container w3-section">
 
 
-																				  		<h2>Annoucement</h2>
+																				  		<h2>Internal Application</h2>
 
-																				<div class="w3-half">
+																			<!--	<div class="w3-half">
                                                <span class ="w3-section square2 w3-round-xlarge">Place_holder </span>
 																				</div>
 
 																				<div class=" w3-half">
 																						<span class ="square2 w3-round-xlarge">Place_holder</span>
-																				</div>
+																				</div> -->
+
+																				<div >
+																					<center>
+																						<table width=100% class="w3-container w3-center ">
+																							<tr >
+																								<td class ="square2 button w3-round-xlarge text_center btn btn-default btn-lg" onclick="alert('Hello World!')" >
+																									<input type="image" src="./assets/minion.png" class ="button"/>
+																								</td>
+																								<td class ="square2 button w3-round-xlarge text_center btn btn-default btn-lg" onclick="alert('Hello World!')" >
+																									<input type="image" src="./assets/minion.png" class ="button"/>
+																								</td>
+																								<td class ="square2 w3-round-xlarge">
+																								</td>
+																								<td class ="square2 w3-round-xlarge">
+																								</td>
+																							</td>
+																						</tr>
+																					</table>
+																				</center>
+
+																			</div>
 																				 </div>
+
 																			<!-- buttons (3 button/row)---------------->
 
+                                     <hr />
 
-																			<!-- Grid -->
-																			<div class="w3-row">
 
-																			<!-- Blog entries -->
-																			<div class="w3-col l8 s12">
-																			  <!-- Blog entry -->
-																			  <div class="w3-card-4 w3-margin w3-white">
-																			    <img src="/w3images/woods.jpg" alt="Nature" style= "width:">
-																			    <div class="w3-container">
-																			      <h3><b>TITLE HEADING</b></h3>
-																			      <h5>Title description, <span class="w3-opacity">April 7, 2014</span></h5>
-																			    </div>
+																		<hr />
+																		<!-- The Grid -->
+																		<div class="w3-row">
+																			<!-- Left Column -->
+																			<div class="w3-col l3">
+																				<!-- Profile -->
+																				<div class="w3-card w3-round w3-white">
+																					<div class="w3-container">
+																					 <h4 class="w3-center">My Profile</h4>
+																					 <p class="w3-center"><img src="/w3images/avatar3.png" class="w3-circle" style="height:106px;width:106px" alt="Avatar"></p>
+																					 <hr>
+																					 <p><i class="fa fa-pencil fa-fw w3-margin-right w3-text-theme"></i> Designer, UI</p>
+																					 <p><i class="fa fa-home fa-fw w3-margin-right w3-text-theme"></i> London, UK</p>
+																					 <p><i class="fa fa-birthday-cake fa-fw w3-margin-right w3-text-theme"></i> April 1, 1988</p>
+																					</div>
+																				</div>
+																				<br>
 
-																			    <div class="w3-container">
-																			      <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed
-																			        tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
-																			      <div class="w3-row">
-																			        <div class="w3-col m8 s12">
-																			          <p><button class="w3-button w3-padding-large w3-white w3-border"><b>READ MORE »</b></button></p>
-																			        </div>
-																			        <div class="w3-col m4 w3-hide-small">
-																			          <p><span class="w3-padding-large w3-right"><b>Comments  </b> <span class="w3-tag">0</span></span></p>
-																			        </div>
-																			      </div>
-																			    </div>
-																			  </div>
-																			  <hr>
+																				<!-- Accordion -->
+																				<div class="w3-card w3-round">
+																					<div class="w3-white">
+																						<button onclick="myFunction('Demo1')" class="w3-button w3-hover-amber w3-block w3-theme-l1 w3-left-align"><i class="fa fa-circle-o-notch fa-fw w3-margin-right"></i> My Groups</button>
+																						<div id="Demo1" class="w3-hide w3-container">
+																							<p>Some text..</p>
+																						</div>
+																						<button onclick="myFunction('Demo2')" class="w3-button w3-hover-amber w3-block w3-theme-l1 w3-left-align"><i class="fa fa-calendar-check-o fa-fw w3-margin-right"></i> My Events</button>
+																						<div id="Demo2" class="w3-hide w3-container">
+																							<p>Some other text..</p>
+																						</div>
+																						<button onclick="myFunction('Demo3')" class="w3-button w3-hover-amber w3-block w3-theme-l1 w3-left-align"><i class="fa fa-users fa-fw w3-margin-right"></i> My Photos</button>
+																						<div id="Demo3" class="w3-hide w3-container">
+																					 <div class="w3-row-padding">
+																					 <br>
+																						 <div class="w3-half">
+																							 <img src="/w3images/lights.jpg" style="width:100%" class="w3-margin-bottom">
+																						 </div>
+																						 <div class="w3-half">
+																							 <img src="/w3images/nature.jpg" style="width:100%" class="w3-margin-bottom">
+																						 </div>
+																						 <div class="w3-half">
+																							 <img src="/w3images/mountains.jpg" style="width:100%" class="w3-margin-bottom">
+																						 </div>
+																						 <div class="w3-half">
+																							 <img src="/w3images/forest.jpg" style="width:100%" class="w3-margin-bottom">
+																						 </div>
+																						 <div class="w3-half">
+																							 <img src="/w3images/nature.jpg" style="width:100%" class="w3-margin-bottom">
+																						 </div>
+																						 <div class="w3-half">
+																							 <img src="/w3images/snow.jpg" style="width:100%" class="w3-margin-bottom">
+																						 </div>
+																					 </div>
+																						</div>
+																					</div>
+																				</div>
+																				<br>
 
-																			  <!-- Blog entry -->
-																			  <div class="w3-card-4 w3-margin w3-white">
-																			  <img src="/w3images/bridge.jpg" alt="Norway" style="width:">
-																			    <div class="w3-container">
-																			      <h3><b>BLOG ENTRY</b></h3>
-																			      <h5>Title description, <span class="w3-opacity">April 2, 2014</span></h5>
-																			    </div>
 
-																			    <div class="w3-container">
-																			      <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed
-																			        tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
-																			      <div class="w3-row">
-																			        <div class="w3-col m8 s12">
-																			          <p><button class="w3-button w3-padding-large w3-white w3-border"><b>READ MORE »</b></button></p>
-																			        </div>
-																			        <div class="w3-col m4 w3-hide-small">
-																			          <p><span class="w3-padding-large w3-right"><b>Comments  </b> <span class="w3-badge">2</span></span></p>
-																			        </div>
-																			      </div>
-																			    </div>
-																			  </div>
-																			<!-- END BLOG ENTRIES -->
+																				<br>
+
+
+
+																			<!-- End Left Column -->
 																			</div>
 
-																			<!-- Introduction menu -->
-																			<div class="w3-col l4">
-																			  <!-- About Card -->
-																			  <div class="w3-card w3-margin w3-margin-top">
-																			  <img src="/w3images/avatar_g.jpg" style="width:">
-																			    <div class="w3-container w3-white">
-																			      <h4><b>My Name</b></h4>
-																			      <p>Just me, myself and I, exploring the universe of uknownment. I have a heart of love and a interest of lorem ipsum and mauris neque quam blog. I want to share my world with you.</p>
-																			    </div>
-																			  </div><hr>
+																			<!-- Middle Column -->
+																			<div class="w3-col l9 w3-container">
 
+																				<div class="w3-row-padding">
+																					<div class="w3-col m12">
+																						<div class="w3-card w3-round w3-white">
+																							<div class="w3-container w3-padding">
+																								<h6 class="w3-opacity">Social Media template by w3.css</h6>
+																								<p contenteditable="true" class="w3-border w3-padding">Status: Feeling Blue</p>
+																								<button type="button" class="w3-button w3-theme"><i class="fa fa-pencil"></i>  Post</button>
+																							</div>
+																						</div>
+																					</div>
+																				</div>
 
-
-
-																			<header class="w3-container w3-left w3-white">
-																				<h2>Internal Application</h2>
-																			</header>
-
-																			<div >
-																				<center>
-																					<table width=100% class="w3-container w3-center ">
-																						<tr >
-																							<td class ="square2 button w3-round-xlarge text_center btn btn-default btn-lg" onclick="alert('Hello World!')" >
-																								<input type="image" src="./assets/minion.png" class ="button"/>
-																							</td>
-																							<td class ="square2 w3-round-xlarge">
-																							</td>
-																							<td class ="square2 w3-round-xlarge">
-																							</td>
-																						</td>
-																					</tr>
-																				</table>
-																			</center>
-
+																		<!-- End Grid -->
 																		</div>
-																		<hr />
 
 
 
@@ -460,10 +435,28 @@
 
 
   <!-- Footer -->
-  <footer class="w3-container w3-padding-16 w3-light-grey">
-    <h4>FOOTER</h4>
-    <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
-  </footer>
+	<footer class="w3-container w3-theme-dark w3-padding-16">
+	  <h3>Footer</h3>
+	  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+	  <div style="position:relative;bottom:55px;" class="w3-tooltip w3-right">
+	    <span class="w3-text w3-theme-light w3-padding">Go To Top</span>
+	    <a class="w3-text-white" href="#myHeader"><span class="w3-xlarge">
+	      <i class="fa fa-chevron-circle-up"></i></span></a>
+	    </div>
+	    <span>
+	        <a href="/">Home</a> <span>|</span>
+	        <a href="http://setsmart.domain.local:8080" target="_blank">SETSMART</a> <span>|</span>
+	        <a href="/Service/RedirectToService?serviceAuthenticationType=E_FINANCE&amp;serviceCode=E-Finance" target="_blank">E-FINANCE </a><span>|</span>
+	        <a href="/PCLive" target="_blank">Research Online </a><span>|</span>
+	        <a href="/OrderMatch/OrderList">Contra Broker</a><span>|</span>
+	        <a href="http://custkm/REFERENCE/" target="_blank">SMART System</a> <span>|</span>
+	        <a href="/Home/DocumentList">Documents</a><span>|</span>
+	        <a href="/Documents/AWS Phone List.pdf" target="_blank">Tel</a>
+	    </span>
+
+
+	    <p>Remember to check out our  <a href="w3css_references.asp" class="w3-btn w3-theme-light" target="_blank">W3.CSS Reference</a></p>
+	  </footer>
 
   <!-- End page content -->
 </div>
