@@ -22,7 +22,7 @@
   <!-- Note:  this script will mainly use w3.css as the mainframework and use bootstrap as the additional framework for some additional components
   that w3.css does not have-->
 </head>
-<body>
+<body >
   <!--<center> in case want to layout like the old page-->
   <!-- Side Navigation -->
   <nav class="w3-sidebar w3-bar-block w3-card w3-animate-left w3-center" style="display:none" id="mySidebar">
@@ -73,9 +73,17 @@
 
   <!--Top Block Starts -->
 <br />
-<div class="w3-container">
- <!-- header name-->
+<div class="w3-left">
+  <h1 class="w3-xxxlarge w3-animate-bottom w3-text-theme">Intranet System</h1>
 
+</div>
+<div id = "logo"class="w3-left" >
+    <a href="/" ><img alt="Asia Wealth Securities Company Limited" height="100" src="./icon/awslogohd.png"
+            title="Asia Wealth Securities Company Limited" /></a></div>
+    <div id ="blueline" class=" w3-container w3-right">
+ <!-- header name-->
+ <!--
+ <div class="w3-container">
   <div class="w3-left">
     <h1 class="w3-xxxlarge w3-animate-bottom">Intranet System</h1>
 
@@ -131,7 +139,7 @@
 
 
 
-                                        </div>
+                                        </div> -->
 
                                         <!--Top Block Ends -->
                                        <!--
@@ -191,17 +199,17 @@
                           <hr />
 
                           <!-- buttons (3 button/row)---------------->
-                          <header class="w3-container w3-left w3-white">
-                            <h2>Services</h2>
+                          <header class="w3-container w3-left w3-white w3-text-theme">
+                            <h1>Services</h1>
                           </header>
 
-                          <div >
+                          <<div >
                             <center>
                               <table width=100% class="w3-container w3-center ">
                                 <tr >
                                   <td class ="square2 button w3-round-xlarge text_center btn btn-default btn-lg" onclick="alert('Hello World!')" >
                                     <h2>SET SMART</h2>
-                                  <!--  <input type="image" src="./assets/minion.png" class ="button"/> -->
+                                    <input type="image" src="./assets/minion.png" class ="button"/>
                                   </td>
                                   <td class ="square2 w3-round-xlarge">
                                     <h2> Aspen</h2>
@@ -233,6 +241,10 @@
                                 <td class ="square w3-round-xlarge">
                                   <h2>DOCUMENT</h2>
                                 </td>
+                                <td class ="square w3-round-xlarge">
+                                  <h2>DOCUMENT</h2>
+                                </td>
+                              
                               </tr>
                             </table>
                           </center>
@@ -416,7 +428,7 @@
 <!-- buttons end------------>
 <!-- contact-------------------->
 <div>
-  <h2 class="w3-left">Contacts</h2>
+  <h2 class="w3-left w3-text-theme">Contacts</h2>
 </div>
 <!-- test filter form -->
 <!-- ref :https://silviomoreto.github.io/bootstrap-select/examples/-->

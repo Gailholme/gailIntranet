@@ -22,7 +22,7 @@ $objResult = mysqli_fetch_array($objQuery);
 <head>
 	<title>USER page</title>
 </head>
-<body>
+<!--<body>
 
 	Welcome to User Page! <br>
 	<table border="1" style="width: 300px">
@@ -42,7 +42,7 @@ $objResult = mysqli_fetch_array($objQuery);
 	<a href="edit_profile.php">Edit</a><br>
 	<br>
 	<a href="main.php">logout</a>
-</body>
+</body>-->
 </html>
 
 
@@ -84,9 +84,7 @@ $objResult = mysqli_fetch_array($objQuery);
 
 			<!-- username box end ------>
 			<a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-amber w3-theme-d2 " href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
-			<a href="#" class="w3-bar-item w3-button w3-teal"><i class="fa fa-home w3-margin-right"></i>Logo</a>
-			<a href="#team" class="w3-bar-item w3-button w3-hide-small w3-hover-amber">Team</a>
-			<a href="#work" class="w3-bar-item w3-button w3-hide-small w3-hover-amber">Work</a>
+			<a href="#" class="w3-bar-item w3-button w3-amber"><i class="fa fa-home w3-margin-right"></i>Home</a>
 
 			<a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-hover-amber">Contact</a>
 			<div class="w3-dropdown-hover w3-hide-small">
@@ -107,12 +105,8 @@ $objResult = mysqli_fetch_array($objQuery);
 		<header class="w3-container   w3-padding" id="myHeader">
 
 
+     <br /><br />
 
-			<!-- header name-->
-			<div class="w3-center w3-left w3-container">
-				<h1 class="w3-xxxlarge w3-animate-bottom">Intranet System</h1>
-				<h4> </h4>
-			</div>
 
 
 
@@ -170,6 +164,47 @@ Dropdown <i class="fa fa-caret-down"></i>
 </div>
 
 </div> -->
+
+<!-- Slideshow -->
+  <div class="w3-container">
+    <div class="w3-display-container mySlides ">
+      <img src="./assets/coffee.jpg" style="width:100%; height:40% ">
+      <div class="w3-display-topleft w3-container w3-padding-32">
+        <span class="w3-white w3-padding-large w3-animate-bottom">Lorem ipsum</span>
+      </div>
+    </div>
+    <div class="w3-display-container  mySlides">
+      <img src="./assets/workbench.jpg" style="width:100% height:40%">
+      <div class="w3-display-middle w3-container w3-padding-32">
+        <span class="w3-white w3-padding-large w3-animate-bottom">Klorim tipsum</span>
+      </div>
+    </div>
+    <div class="w3-display-container myslides">
+      <img src="./assets/sound.jpg" style="width:100% height:40%">
+      <div class="w3-display-topright w3-container w3-padding-32">
+        <span class="w3-white w3-padding-large w3-animate-bottom">Blorum pipsum</span>
+      </div>
+    </div>
+
+    <!-- Slideshow next/previous buttons -->
+    <div class="w3-container w3-dark-grey w3-padding w3-xlarge">
+      <div class="w3-left" onclick="plusDivs(-1)"><i class="fa fa-arrow-circle-left w3-hover-text-teal"></i></div>
+      <div class="w3-right" onclick="plusDivs(1)"><i class="fa fa-arrow-circle-right w3-hover-text-teal"></i></div>
+
+      <div class="w3-center">
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+      </div>
+    </div>
+  </div>
+
+	<!-- header name-->
+	<div class="w3-center w3-left w3-container">
+		<h1 class="w3-xxxlarge w3-animate-bottom">Intranet System</h1>
+		<h4> </h4>
+	</div>
+
 <hr />
 </header>
 <div class="w3-container w3-section">
@@ -219,7 +254,7 @@ Dropdown <i class="fa fa-caret-down"></i>
 	<!-- Left Column -->
 	<div class="w3-col l2">
 		<!-- Profile -->
-		<div class="w3-card w3-round w3-white w3-margin-top">
+		<div class="w3-card-4 w3-round w3-white w3-margin-top">
 			<div class="w3-container">
 				<h4 class="w3-center">My Profile</h4>
 				<p class="w3-center"><img src="/w3images/avatar3.png" class="w3-circle" style="height:106px;width:106px" alt="Avatar"></p>
@@ -230,47 +265,35 @@ Dropdown <i class="fa fa-caret-down"></i>
 
 
 			</div>
+
 		</div>
 		<br>
+		<!-- Blog entry -->
+		<div class="w3-container w3-row-padding" >
 
-		<!-- Accordion -->
-		<div class="w3-card w3-round">
-			<div class="w3-white">
-				<button onclick="myFunction('Demo1')" class="w3-button w3-hover-amber w3-block w3-theme-l1 w3-left-align"><i class="fa fa-circle-o-notch fa-fw w3-margin-right"></i> My Groups</button>
-				<div id="Demo1" class="w3-hide w3-container">
-					<p>Some text..</p>
-				</div>
-				<button onclick="myFunction('Demo2')" class="w3-button w3-hover-amber w3-block w3-theme-l1 w3-left-align"><i class="fa fa-calendar-check-o fa-fw w3-margin-right"></i> My Events</button>
-				<div id="Demo2" class="w3-hide w3-container">
-					<p>Some other text..</p>
-				</div>
-				<button onclick="myFunction('Demo3')" class="w3-button w3-hover-amber w3-block w3-theme-l1 w3-left-align"><i class="fa fa-users fa-fw w3-margin-right"></i> My Photos</button>
-				<div id="Demo3" class="w3-hide w3-container">
-					<div class="w3-row-padding">
-						<br>
-						<div class="w3-half">
-							<img src="/w3images/lights.jpg" style="" class="w3-margin-bottom">
-						</div>
-						<div class="w3-half">
-							<img src="/w3images/nature.jpg" style="" class="w3-margin-bottom">
-						</div>
-						<div class="w3-half">
-							<img src="/w3images/mountains.jpg" style="" class="w3-margin-bottom">
-						</div>
-						<div class="w3-half">
-							<img src="/w3images/forest.jpg" style="" class="w3-margin-bottom">
-						</div>
-						<div class="w3-half">
-							<img src="/w3images/nature.jpg" style="" class="w3-margin-bottom">
-						</div>
-						<div class="w3-half">
-							<img src="/w3images/snow.jpg" style="" class="w3-margin-bottom">
-						</div>
+			<div class="">
+				<h3><b>CALENDAR</b></h3>
+				<h5>Title description, <span class="w3-opacity">April 2, 2014</span></h5>
+			</div>
+
+			<div class="w3-container">
+				<p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed
+					tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+				<div class="w3-row">
+					<div class="w3-col m8 s12">
+						<p><button class="w3-button w3-padding-large w3-white w3-border"><b>READ MORE »</b></button></p>
+					</div>
+					<div class="w3-col m4 w3-hide-small">
+						<p><span class="w3-padding-large w3-right"><b>Comments  </b> <span class="w3-badge">2</span></span></p>
 					</div>
 				</div>
 			</div>
 		</div>
+	<!-- END BLOG ENTRIES -->
+
+
 	</div>
+
 
 
 
@@ -307,31 +330,9 @@ Dropdown <i class="fa fa-caret-down"></i>
 		  </div>
 		  <hr>
 
-		  <!-- Blog entry -->
-		  <div class="w3-card-4 w3-margin w3-white">
-
-		    <div class="w3-container">
-		      <h3><b>CALENDAR</b></h3>
-		      <h5>Title description, <span class="w3-opacity">April 2, 2014</span></h5>
-		    </div>
-
-		    <div class="w3-container">
-		      <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed
-		        tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
-		      <div class="w3-row">
-		        <div class="w3-col m8 s12">
-		          <p><button class="w3-button w3-padding-large w3-white w3-border"><b>READ MORE »</b></button></p>
-		        </div>
-		        <div class="w3-col m4 w3-hide-small">
-		          <p><span class="w3-padding-large w3-right"><b>Comments  </b> <span class="w3-badge">2</span></span></p>
-		        </div>
-		      </div>
-		    </div>
-		  </div>
-		<!-- END BLOG ENTRIES -->
 		</div>
 
-		<!-- Introduction menu -->
+		<!-- annocement-->
 		<div class="w3-col l7">
 			<div class="w3-card-4">
 				<div class="w3-container">
@@ -401,12 +402,16 @@ Dropdown <i class="fa fa-caret-down"></i>
 		  <hr>
 
 
+
 		</div>
 		<!-- END Introduction Menu -->
 		</div>
 
 </div>
+
 </div>
+
+
 
 
 <!-- Grid test 2 -->
@@ -587,6 +592,8 @@ Dropdown <i class="fa fa-caret-down"></i>
 <!-- test iframe end-->
 
 <hr />
+</div>
+</div>
 
 
 
@@ -640,6 +647,33 @@ function w3_open() {
 function w3_close() {
 	mySidebar.style.display = "none";
 	overlayBg.style.display = "none";
+}
+//slideshows
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demodots");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length} ;
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+     dots[i].className = dots[i].className.replace(" w3-white", "");
+  }
+  x[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " w3-white";
 }
 </script>
 
