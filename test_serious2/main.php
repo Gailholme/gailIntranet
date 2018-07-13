@@ -203,20 +203,22 @@
                             <h1>Services</h1>
                           </header>
 
-                          <<div >
+                          <div >
                             <center>
                               <table width=100% class="w3-container w3-center ">
                                 <tr >
-                                  <td class ="square2 button w3-round-xlarge text_center btn btn-default btn-lg" onclick="alert('Hello World!')" >
-                                    <h2>SET SMART</h2>
-                                    <input type="image" src="./assets/minion.png" class ="button"/>
+                                  <td class ="square2 button w3-round-xlarge text_center btn btn-default btn-lg " onclick="alert('Hello World!')" >
+                                    <input type="image" src="./assets/setsmart.jpg" class ="button"/>
                                   </td>
-                                  <td class ="square2 w3-round-xlarge">
-                                    <h2> Aspen</h2>
+                                  <td class ="square2 w3-round-xlarge  w3-border-amber ">
+
+                                        <input type="image" src="./assets/aspen.png" class ="button"/>
                                   </td>
-                                  <td class ="square2 w3-round-xlarge">
-                                    <h2> E-FIN</h2>
+                                  <td class ="square2 w3-round-xlarge btn  btn-default ">
+
+                                    <input type="image" src="./assets/efin.png" class ="button"/>
                                   </td>
+
                                 </td>
                               </tr>
                             </table>
@@ -244,7 +246,7 @@
                                 <td class ="square w3-round-xlarge">
                                   <h2>DOCUMENT</h2>
                                 </td>
-                              
+
                               </tr>
                             </table>
                           </center>
