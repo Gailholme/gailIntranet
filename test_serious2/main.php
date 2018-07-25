@@ -207,19 +207,22 @@
                             <center>
                               <table width=100% class="w3-container w3-center ">
                                 <tr >
-                                  <td class ="square2 button w3-round-xlarge text_center btn btn-default btn-lg " onclick="alert('Hello World!')" >
+                                  <td class ="square2 button w3-round-xlarge text_center btn btn-default btn-lg w3-border-amber" onclick="alert('Hello World!')" >
                                     <input type="image" src="./assets/setsmart.jpg" class ="button"/>
                                   </td>
                                   <td class ="square2 w3-round-xlarge  w3-border-amber ">
 
                                         <input type="image" src="./assets/aspen.png" class ="button"/>
                                   </td>
-                                  <td class ="square2 w3-round-xlarge btn  btn-default ">
+                                  <td class ="square2 w3-round-xlarge btn  btn-default btn-lg w3-border-amber">
 
                                     <input type="image" src="./assets/efin.png" class ="button"/>
                                   </td>
 
-                                </td>
+                                  <td  onclick="alert('Hello World!')" class ="square2 w3-round-xlarge text_center w3-border-amber" >
+
+                                        <input type="image" src="./assets/efin.png" class ="button"/>
+                                  </td>
                               </tr>
                             </table>
                           </center>
@@ -230,22 +233,24 @@
                           <center>
                             <table width=100% class="w3-container w3-center ">
                               <tr >
-                                <td  onclick="alert('Hello World!')" class ="square w3-round-xlarge text_center" >
-                                  <h2>RESEARCH ANALYSIS</h2>
-                                </td>
+
                                 <td class ="square w3-round-xlarge">
                                   <input type="image" src="./assets/minion.png" class ="button"onclick="alert('Hello World!')" />
                                 </td>
-                                <td class ="square w3-round-xlarge">
-                                  <h2>SMART SYSTEM</h2>
+                                <td class ="square2 w3-round-xlarge  w3-border-amber ">
+
+                                      <input type="image" src="./assets/aspen.png" class ="button"/>
+                                </td>
+                                <td class ="square2 w3-round-xlarge btn  btn-default btn-lg w3-border-amber">
+
+                                  <input type="image" src="./assets/efin.png" class ="button"/>
                                 </td>
 
-                                <td class ="square w3-round-xlarge">
-                                  <h2>DOCUMENT</h2>
+                                <td  onclick="alert('Hello World!')" class ="square2 w3-round-xlarge text_center w3-border-amber" >
+
+                                      <input type="image" src="./assets/efin.png" class ="button"/>
                                 </td>
-                                <td class ="square w3-round-xlarge">
-                                  <h2>DOCUMENT</h2>
-                                </td>
+                            </tr>
 
                               </tr>
                             </table>
