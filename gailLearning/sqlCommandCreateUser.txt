@@ -1,0 +1,8 @@
+ CREATE USER 'gail'@'localhost' IDENTIFIED BY 'password';
+ GRANT ALL PRIVILEGES ON *.* TO 'gail'@'localhost'
+         WITH GRANT OPTION;
+ CREATE USER 'gail'@'%' IDENTIFIED BY 'password';
+ GRANT ALL PRIVILEGES ON *.* TO 'gail'@'%'
+         WITH GRANT OPTION;
+    CREATE USER 'admin'@'localhost' IDENTIFIED BY 'password';
+     GRANT RELOAD,PROCESS ON *.* TO 'admin'@'localhost'my
