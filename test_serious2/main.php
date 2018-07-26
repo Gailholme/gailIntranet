@@ -234,8 +234,11 @@
                             <table width=100% class="w3-container w3-center ">
                               <tr >
 
-                                <td class ="square w3-round-xlarge">
+                                <!--<td class ="square w3-round-xlarge">
                                   <input type="image" src="./assets/minion.png" class ="button"onclick="alert('Hello World!')" />
+                                </td> -->
+                                <td class ="square2 button w3-round-xlarge text_center btn btn-default btn-lg w3-border-amber" onclick="alert('Hello World!')" >
+                                  <input type="image" src="./assets/setsmart.jpg" class ="button"/>
                                 </td>
                                 <td class ="square2 w3-round-xlarge  w3-border-amber ">
 
@@ -250,7 +253,7 @@
 
                                       <input type="image" src="./assets/efin.png" class ="button"/>
                                 </td>
-                            </tr>
+
 
                               </tr>
                             </table>
@@ -443,7 +446,7 @@
 
 
   <!-- search box----------------------->
-  <div class="w3-half">
+  <div class="w3-col l6">
     <form class="w3-container w3-card-4">
       <h2>Input Form</h2>
       <!--
@@ -494,7 +497,16 @@
 <div class="w3-section">
   <input  type="submit" value="Search" action="action.php" class="w3-btn w3-blue">
 </div>
+
+
 </form>
+<div class=" w3-section w3-container ">
+
+  <iframe height= "300px" width = "100%"src="./searchRecord.php" class="" scrolling="yes">
+
+  </iframe>
+  <!-- php table from database : employees end-->
+</div>
 
 
 </div>
@@ -505,29 +517,16 @@
     <!--Left Block Starts -->
     <div class="w3-section">
       <span>
-        <iframe width="100%" scrolling="yes" height="280px" frameborder="0" align="middle" src="./branch.html"></iframe>
+        <iframe width="100%" scrolling="yes" height="600px" frameborder="0" align="middle" src="./branch.html"></iframe>
       </span>
     </div>
   </div>
   <!--Left Block Ends -->
   <!--  News content end---------------------->
 </div>
-
-
-
-
-
-
-<!-- test php search table from database (with iframe)-->
-<br />
-<!-- php table from database : employees-->
-<div class="w3-container ">
-
-  <iframe height= "300px"src="./searchRecord.php" class="w3-half" scrolling="yes">
-
-  </iframe>
-  <!-- php table from database : employees end-->
 </div>
+
+
 
 <!--test php search table from database end-->
 
@@ -560,15 +559,15 @@
 <hr />
 
 <!-- Footer -->
-<footer class="w3-container w3-theme-dark w3-padding-16">
-  <h3>Footer</h3>
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+<footer class="w3-container w3-theme w3-text-theme2  w3-padding-16">
+
+
   <div style="position:relative;bottom:55px;" class="w3-tooltip w3-right">
-    <span class="w3-text w3-theme-light w3-padding">Go To Top</span>
+    <span class="w3-text w3-theme-white w3-padding">Go To Top</span>
     <a class="w3-text-white" href="#myHeader"><span class="w3-xlarge">
       <i class="fa fa-chevron-circle-up"></i></span></a>
     </div>
-    <span>
+    <span class="w3-text-color-amber">
         <a href="/">Home</a> <span>|</span>
         <a href="http://setsmart.domain.local:8080" target="_blank">SETSMART</a> <span>|</span>
         <a href="/Service/RedirectToService?serviceAuthenticationType=E_FINANCE&amp;serviceCode=E-Finance" target="_blank">E-FINANCE </a><span>|</span>
@@ -578,9 +577,7 @@
         <a href="/Home/DocumentList">Documents</a><span>|</span>
         <a href="/Documents/AWS Phone List.pdf" target="_blank">Tel</a>
     </span>
-
-
-    <p>Remember to check out our  <a href="w3css_references.asp" class="w3-btn w3-theme-light" target="_blank">W3.CSS Reference</a></p>
+    <p ><a href="> https://www.asiawealth.co.th/th/index.php" class="w3-btn w3-text-theme2" target="_blank"> https://www.asiawealth.co.th/th/index.php </a></p>
   </footer>
 
   </html>

@@ -58,7 +58,7 @@
 				 </div>
 				 <div>
 			 <label for="name"> Other </label><br />
-
+	
 			 <textarea cols="30" rows="2">Long text.</textarea><br />
 				</div>
 		</div>

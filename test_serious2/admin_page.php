@@ -19,6 +19,8 @@ $strSQL = "SELECT * FROM member WHERE UserID LIKE '".$_SESSION['UserID']."' ";
 $objQuery = mysqli_query($con,$strSQL);
 $objResult = mysqli_fetch_array($objQuery);
 ?>
+<!-- debug login box-->
+<!--
 <html>
 <head>
 	<title>Admin Page</title>
@@ -46,6 +48,7 @@ $objResult = mysqli_fetch_array($objQuery);
 
 </body>
 </html>
+-->
 <!DOCTYPE html>
 <html>
 <head>
@@ -76,8 +79,9 @@ $objResult = mysqli_fetch_array($objQuery);
 	<div class="w3-content" style="max-width:1500px">
 		<!-- Header -->
 		<header class="w3-container   w3-padding" id="myHeader">
-
+     <!-- LOGIN BOX-->
 			<!-- username box -------------------------------------------------->
+
 			<div class="w3-container w3-panel w3-card  w3-white  w3-right">
 				<div class=" w3-containerw3-center  w3-xlarge">
 					<p >
@@ -87,12 +91,12 @@ $objResult = mysqli_fetch_array($objQuery);
 
 						<a class="w3-btn w3-black w3-right" href="main.php">Logout</a>
 				</div>
-				<!-- username box end ------>
+				<!-- username box end  -->
 
 				<!-- header name-->
 				<div class="w3-center w3-container">
 					<h1 class="w3-xxxlarge w3-animate-bottom">Intranet System</h1>
-					<h4> </h4>
+					<h4>ADMIN PAGE </h4>
 				</div>
 
 
@@ -227,12 +231,21 @@ $objResult = mysqli_fetch_array($objQuery);
 																				<center>
 																					<table width=100% class="w3-container w3-center ">
 																						<tr >
-																							<td class ="square2 button w3-round-xlarge text_center btn btn-default btn-lg" onclick="alert('Hello World!')" >
-																								<input type="image" src="./assets/minion.png" class ="button"/>
+																							<td class ="square2 button w3-round-xlarge text_center" onclick="alert('Hello World!')" >
+																							<!--	<input type="image" src="./assets/minion.png" class ="button"/>-->
+																							<p>
+																								function
+																							</p>
 																							</td>
 																							<td class ="square2 w3-round-xlarge">
+																								<p>
+																									function
+																								</p>
 																							</td>
 																							<td class ="square2 w3-round-xlarge">
+																								<p>
+																									function
+																								</p>
 																							</td>
 																						</td>
 																					</tr>
@@ -246,15 +259,27 @@ $objResult = mysqli_fetch_array($objQuery);
 																				<table width=100% class="w3-container w3-center ">
 																					<tr >
 																						<td  onclick="alert('Hello World!')" class ="square w3-round-xlarge text_center" >
+																							<p>
+																								function
+																							</p>
 
 																						</td>
 																						<td class ="square w3-round-xlarge">
-																							<input type="image" src="./assets/minion.png" class ="button"onclick="alert('Hello World!')" />
+																						<!--	<input type="image" src="./assets/minion.png" class ="button"onclick="alert('Hello World!')" /> -->
+																						<p>
+																							function
+																						</p>
 																						</td>
 																						<td class ="square w3-round-xlarge">
+																							<p>
+																								function
+																							</p>
 																						</td>
 
 																						<td class ="square w3-round-xlarge">
+																							<p>
+																								function
+																							</p>
 																						</td>
 																					</tr>
 																				</table>
@@ -439,34 +464,34 @@ $objResult = mysqli_fetch_array($objQuery);
 <!-- buttons end------------>
 <!-- contact-------------------->
 <div>
-	<h2 class="w3-left">Contacts</h2>
+  <h2 class="w3-left w3-text-theme">Contacts</h2>
 </div>
 <!-- test filter form -->
 <!-- ref :https://silviomoreto.github.io/bootstrap-select/examples/-->
 <div class="w3-row-padding">
 
 
-	<!-- search box----------------------->
-	<div class="w3-half">
-		<form class="w3-container w3-card-4">
-			<h2>Input Form</h2>
-			<!--
-			<div class="w3-section">
-			<input class="w3-input" type="text" required>
-			<label>Name</label>
-		</div>-->
-		<!-- search for keyword-->
-		<div class="w3-section"> <h3>Keyword</h3>
-			<input name="txtKeyword" type="text"=id="txtKeyword" class="w3-input"
-			value="<?php  echo (isset($_GET["txtKeyword"])) ?  $_GET["txtKeyword"] : "";?>">  <!--value="?php echo $_POST["txtKeyword"];?> -->
-			<br />
-		</div>
+  <!-- search box----------------------->
+  <div class="w3-col l6">
+    <form class="w3-container w3-card-4">
+      <h2>Input Form</h2>
+      <!--
+      <div class="w3-section">
+      <input class="w3-input" type="text" required>
+      <label>Name</label>
+    </div>-->
+    <!-- search for keyword-->
+    <div class="w3-section"> <h3>Keyword</h3>
+      <input name="txtKeyword" type="text"=id="txtKeyword" class="w3-input"
+      value="<?php  echo (isset($_GET["txtKeyword"])) ?  $_GET["txtKeyword"] : "";?>">  <!--value="?php echo $_POST["txtKeyword"];?> -->
+      <br />
+    </div>
 
 
-		<!-- inputbox-->
-		<!--<div class="w3-third">
-		<input class="w3-input w3-border" type="text" placeholder="One">
-	</div>
+    <!-- inputbox-->
+    <!--<div class="w3-third">
+    <input class="w3-input w3-border" type="text" placeholder="One">
+  </div>
 -->
 <!--<div class="w3-section">
 <input class="w3-input" type="text" required>
@@ -476,63 +501,58 @@ $objResult = mysqli_fetch_array($objQuery);
 
 
 <div class="w3-section">
-	<h3>Department</h3>
-	<select class="w3-select w3-half" name="option">
+  <h3>Department</h3>
+  <select class="w3-select w3-half" name="option">
 
-		<option>All</option>
-		<option>
-			<?php include "option.php"; ?>
-		</option>
-	</select>
+    <option>All</option>
+    <option>
+      <?php include "option.php"; ?>
+    </option>
+  </select>
 
-	<select class="w3-select w3-half" name="option">
+  <select class="w3-select w3-half" name="option">
 
-		<option>All</option>
-		<option>
-			<?php include "option.php"; ?>
-		</option>
-	</select>
-	<br />
+    <option>All</option>
+    <option>
+      <?php include "option.php"; ?>
+    </option>
+  </select>
+  <br />
 </div>
 </br>
 <div class="w3-section">
-	<input  type="submit" value="Search" action="action.php" class="w3-btn w3-blue">
+  <input  type="submit" value="Search" action="action.php" class="w3-btn w3-blue">
 </div>
+
+
 </form>
+<div class=" w3-section w3-container ">
+
+  <iframe height= "300px" width = "100%"src="./searchRecord.php" class="" scrolling="yes">
+
+  </iframe>
+  <!-- php table from database : employees end-->
+</div>
 
 
 </div>
 <div class="w3-half ">
-	<div class ="w3-card-4 w3-container ">
-		<h2>สาขา</h2>
+  <div class ="w3-card-4 w3-container ">
+    <h2>สาขา</h2>
 
-		<!--Left Block Starts -->
-		<div class="w3-section">
-			<span>
-				<iframe width="100%" scrolling="yes" height="280px" frameborder="0" align="middle" src="./branch.html"></iframe>
-			</span>
-		</div>
-	</div>
-	<!--Left Block Ends -->
-	<!--  News content end---------------------->
+    <!--Left Block Starts -->
+    <div class="w3-section">
+      <span>
+        <iframe width="100%" scrolling="yes" height="600px" frameborder="0" align="middle" src="./branch.html"></iframe>
+      </span>
+    </div>
+  </div>
+  <!--Left Block Ends -->
+  <!--  News content end---------------------->
+</div>
 </div>
 
 
-
-
-
-<!-- test php search table from database (with iframe)-->
-<br />
-<!-- php table from database : employees-->
-<div class="w3-container ">
-
-	<iframe height= "300px"src="./searchRecord.php" class="w3-half" scrolling="yes">
-
-	</iframe>
-	<!-- php table from database : employees end-->
-</div>
-
-<!--test php search table from database end-->
 
 <!--tab- open/close -->
 <hr />
@@ -573,6 +593,7 @@ $objResult = mysqli_fetch_array($objQuery);
 		</div>
 		<p>Remember to check out our  <a href="w3css_references.asp" class="w3-btn w3-theme-light" target="_blank">W3.CSS Reference</a></p>
 	</footer>
+</div>
 	</html>
 
 	<!-- Script for Sidebar, Tabs, Accordions, Progress bars and slideshows -->
